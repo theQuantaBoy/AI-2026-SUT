@@ -1,0 +1,22 @@
+\question{}
+
+\begin{ابجد}
+\item مسئله با یک مدل مارکوف مخفی (\lr{HMM}) مدل‌سازی می‌شود و طبق قاعده‌ی زنجیره‌ای در شبکه‌های بیزین، می‌توان احتمال مورد نظر را به این صورت محاسبه کرد:
+\begin{align*}
+    P(X_1, E_1, X_2, E_2) = P(X_1) \cdot P(E_1 | X_1) \cdot P(X_2 | X_1) \cdot P(E_2 | X_2)
+\end{align*}
+این احتمال را برای حالت‌های مختلف $(X_1, X_2)$ محاسبه می‌کنیم:
+\begin{align*}
+     & P(X_1 = N, E_1 = motion, X_2 = N, E_2 = alarm) = 0.7 \times 0.2 \times 0.85 \times 0.1 = 0.0119 \\
+     & P(X_1 = N, E_1 = motion, X_2 = T, E_2 = alarm) = 0.7 \times 0.2 \times 0.15 \times 0.6 = 0.0126 \\
+     & P(X_1 = T, E_1 = motion, X_2 = N, E_2 = alarm) = 0.3 \times 0.3 \times 0.2 \times 0.1 = 0.0018  \\
+     & P(X_1 = T, E_1 = motion, X_2 = T, E_2 = alarm) = 0.3 \times 0.3 \times 0.8 \times 0.6 = 0.0432
+\end{align*}
+
+\item با توجه به بخش قبل داریم:
+\begin{align*}
+    P(X_2 = T | E_1 = motion, E_2 = alarm) & = \frac{P(X_2 = T, E_1 = motion, E_2 = alarm)}{P(E_1 = motion, E_2 = alarm)} \\
+                                           & = \frac{0.0126 + 0.0432}{0.0119 + 0.0126 + 0.0018 + 0.0432} \approx 0.803
+\end{align*}
+
+\end{ابجد}

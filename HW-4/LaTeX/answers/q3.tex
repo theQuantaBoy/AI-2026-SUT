@@ -1,0 +1,43 @@
+\question{}
+
+\begin{ابجد}
+\item برای اینکه این ایمیل در \lr{spam} طبقه‌بندی شود، باید عبارت $P(Y = y)\prod_{i=1}^{K}P(W = w_i \mid Y = y)$ به ازای $y=\text{\lr{spam}}$ بیشینه شود.\\
+این عبارت را به ازای دو حالت $Y$ محاسبه می‌کنیم:
+\begin{align*}
+     & P(Y = \text{\lr{spam}})\prod_{i=1}^{K}P(W = w_i \mid Y = \text{\lr{spam}}) = P(Y = \text{\lr{spam}})(\frac{1}{8})(\frac{1}{4}) = \frac{1}{32}P(Y = \text{\lr{spam}}) \\
+     & P(Y = \text{\lr{ham}})\prod_{i=1}^{K}P(W = w_i \mid Y = \text{\lr{ham}}) = P(Y = \text{\lr{ham}})(\frac{1}{12})(\frac{1}{6}) = \frac{1}{72}P(Y = \text{\lr{ham}})
+\end{align*}
+همچنین توجه داریم که $P(Y = \text{\lr{ham}}) = 1 - P(Y = \text{\lr{spam}})$. حال این نامساوی را حل می‌کنیم:
+\begin{align*}
+                      & \frac{1}{32}P(Y = \text{\lr{spam}}) > \frac{1}{72}P(Y = \text{\lr{ham}})                 \\
+    \Rightarrow \quad & \frac{1}{32}P(Y = \text{\lr{spam}}) > \frac{1}{72} - \frac{1}{72}P(Y = \text{\lr{spam}}) \\
+    \Rightarrow \quad & \frac{4 + 9}{4\times8\times9}P(Y = \text{\lr{spam}}) > \frac{1}{72}                      \\
+    \Rightarrow \quad & P(Y = \text{\lr{spam}}) > \frac{4\times8\times9}{8 \times 9 \times 13}                   \\
+    \Rightarrow \quad & P(Y = \text{\lr{spam}}) > \frac{4}{13}                                                   \\
+    \Rightarrow \quad & P(Y = \text{\lr{spam}}) > 0.308
+\end{align*}
+
+\item می‌دانیم که:
+\begin{equation*}
+    P(W = w \mid Y = y) = \frac{\#\{W = w, Y = y\}}{\#\{Y = y\}}
+\end{equation*}
+باید تعداد کل کلمات در هر کلاس را مشخص کنیم:
+\begin{align*}
+     & \#\{Y = \text{spam}\} = 4 + 6 = 10   \\
+     & \#\{Y = \text{ham}\} = 2 + 3 + 3 = 8
+\end{align*}
+
+حال احتمالات خواسته شده را محاسبه می‌کنیم:
+\begin{LTR}
+    \begin{itemize}
+        \item $P(W = \text{\lr{just}} \mid Y = \text{\lr{spam}}) = \frac{\#\{W = \text{\lr{just}}, Y = \text{\lr{spam}}\}}{\#\{Y = \text{\lr{spam}}\}} = \frac{2}{10} = 0.2$
+
+        \item $P(W = \text{\lr{call}} \mid Y = \text{\lr{ham}}) = \frac{\#\{W = \text{\lr{call}}, Y = \text{\lr{ham}}\}}{\#\{Y = \text{\lr{ham}}\}} = \frac{1}{8} = 0.125$
+
+        \item $P(W = \text{\lr{offer}} \mid Y = \text{\lr{ham}}) = \frac{\#\{W = \text{\lr{offer}}, Y = \text{\lr{ham}}\}}{\#\{Y = \text{\lr{ham}}\}} = \frac{0}{8} = 0$
+
+        \item $P(Y = \text{\lr{spam}}) = \frac{2}{5} = 0.4$
+    \end{itemize}
+\end{LTR}
+
+\end{ابجد}

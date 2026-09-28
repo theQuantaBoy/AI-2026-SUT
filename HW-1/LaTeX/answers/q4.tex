@@ -1,0 +1,175 @@
+\question{}
+
+در هر گام، مسیرهای فعلی موجود در \lr{fringe} و مسیری که در آن گام از خارج می‌شود را مشخص می‌کنیم.
+
+\begin{itemize}
+    \item جستجوی \lr{BFS}:
+          \begin{table}[h]
+              \centering
+              \renewcommand{\arraystretch}{1.5}
+
+              \begin{LTR}
+                  \begin{tabular}{|c|>{\raggedright\arraybackslash}p{12cm}|}
+                      \hline
+                      \lr{step} & \lr{Fringe}                                                                          \\
+                      \hline
+                      1         & \lr{\textbf{(S)}}                                                                    \\
+                      \hline
+                      2         & \lr{\sout{(S)}, \textbf{(SA)}, (SB), (SG)}                                           \\
+                      \hline
+                      3         & \lr{\sout{(S)}, \sout{(SA)}, \textbf{(SB)}, (SG), (SAC), (SAD)}                      \\
+                      \hline
+                      4         & \lr{\sout{(S)}, \sout{(SA)}, \sout{(SB)}, \textbf{(SG)}, (SAC), (SAD), (SBD), (SBE)} \\
+                      \hline
+                  \end{tabular}
+              \end{LTR}
+
+          \end{table} \\
+          خروجی الگوریتم، مسیر $SG$ هست.
+
+          \vspace{1.0cm}
+
+    \item جستجوی \lr{DFS}:
+          \begin{table}[h]
+              \centering
+              \renewcommand{\arraystretch}{1.5}
+
+              \begin{LTR}
+                  \begin{tabular}{|c|>{\raggedright\arraybackslash}p{12cm}|}
+                      \hline
+                      \lr{step} & \lr{Fringe}                                                                    \\
+                      \hline
+                      1         & \lr{\textbf{(S)}}                                                              \\
+                      \hline
+                      2         & \lr{\sout{(S)}, (SG), (SB), \textbf{(SA)}}                                     \\
+                      \hline
+                      3         & \lr{\sout{(S)}, (SG), (SB), \sout{(SA)}, (SAD), \textbf{(SAC)}}                \\
+                      \hline
+                      4         & \lr{\sout{(S)}, (SG), (SB), \sout{(SA)}, (SAD), \sout{(SAC)}, \textbf{(SACG)}} \\
+                      \hline
+                  \end{tabular}
+              \end{LTR}
+
+          \end{table} \\
+          خروجی الگوریتم، مسیر $SACG$ است.
+
+          \pagebreak
+
+    \item جستجوی \lr{UCS}:
+          \begin{table}[h]
+              \centering
+              \renewcommand{\arraystretch}{1.5}
+
+              \begin{LTR}
+                  \begin{tabular}{|c|>{\raggedright\arraybackslash}p{12cm}|}
+                      \hline
+                      \lr{step} & \lr{Fringe}                                                                                                                                         \\
+                      \hline
+                      1         & \lr{\textbf{(S0)}}                                                                                                                                  \\
+                      \hline
+                      2         & \lr{\sout{(S0)}, (SA2), \textbf{(SB1)}, (SG9)}                                                                                                      \\
+                      \hline
+                      3         & \lr{\sout{(S0)}, \textbf{(SA2)}, \sout{(SB1)}, (SG9), (SBD3), (SBE5)}                                                                               \\
+                      \hline
+                      4         & \lr{\sout{(S0)}, \sout{(SA2)}, \sout{(SB1)}, (SG9), \textbf{(SBD3)}, (SBE5), (SAC4), (SAD5)}                                                        \\
+                      \hline
+                      5         & \lr{\sout{(S0)}, \sout{(SA2)}, \sout{(SB1)}, (SG9), \sout{(SBD3)}, (SBE5), \textbf{(SAC4)}, (SAD5), (SBDG7)}                                        \\
+                      \hline
+                      6         & \lr{\sout{(S0)}, \sout{(SA2)}, \sout{(SB1)}, (SG9), \sout{(SBD3)}, (SBE5), \sout{(SAC4)}, \textbf{(SAD5)}, (SBDG7), (SACG8)}                        \\
+                      \hline
+                      7         & \lr{\sout{(S0)}, \sout{(SA2)}, \sout{(SB1)}, (SG9), \sout{(SBD3)}, \textbf{(SBE5)}, \sout{(SAC4)}, \sout{(SAD5)}, (SBDG7), (SACG8), (SADG9)}        \\
+                      \hline
+                      8         & \lr{\sout{(S0)}, \sout{(SA2)}, \sout{(SB1)}, (SG9), \sout{(SBD3)}, \sout{(SBE5)}, \sout{(SAC4)}, \sout{(SAD5)}, \textbf{(SBDG7)}, (SACG8), (SADG9)} \\
+                      \hline
+                  \end{tabular}
+              \end{LTR}
+
+          \end{table} \\
+          الگوریتم \lr{UCS}، مسیر بهینه $SBDG$ را انتخاب می‌کند.
+
+          \vspace{1.0cm}
+
+    \item جستجوی \lr{Greedy}:
+          \begin{table}[h]
+              \centering
+              \renewcommand{\arraystretch}{1.5}
+
+              \begin{LTR}
+                  \begin{tabular}{|c|>{\raggedright\arraybackslash}p{12cm}|}
+                      \hline
+                      \lr{step} & \lr{Fringe}                                                           \\
+                      \hline
+                      1         & \lr{\textbf{(S6)}}                                                    \\
+                      \hline
+                      2         & \lr{\sout{(S6)}, \textbf{(SA0)}, (SB6), (SG0)}                        \\
+                      \hline
+                      3         & \lr{\sout{(S6)}, \sout{(SA0)}, (SB6), \textbf{(SG0)}, (SAC4), (SAD1)} \\
+                      \hline
+                  \end{tabular}
+              \end{LTR}
+
+          \end{table} \\
+          الگوریتم \lr{Greedy} به سرعت مسیر $SG$ را انتخاب می‌کند، که لزوما انتخاب بهینه نیست.
+
+          \pagebreak
+
+    \item جستجوی درختی \lr{A$^*$}:
+          \begin{table}[h]
+              \centering
+              \renewcommand{\arraystretch}{1.5}
+
+              \begin{LTR}
+                  \begin{tabular}{|c|>{\raggedright\arraybackslash}p{12cm}|}
+                      \hline
+                      \lr{step} & \lr{Fringe}                                                                                                                                                 \\
+                      \hline
+                      1         & \lr{\textbf{(S 0+6)}}                                                                                                                                       \\
+                      \hline
+                      2         & \lr{\sout{(S 0+6)}, \textbf{(SA 2+0)}, (SB 1+6), (SG 9+0)}                                                                                                  \\
+                      \hline
+                      3         & \lr{\sout{(S 0+6)}, \sout{(SA 2+0)}, (SB 1+6), (SG 9+0), (SAC 4+4), \textbf{(SAD 5+1)}}                                                                     \\
+                      \hline
+                      4         & \lr{\sout{(S 0+6)}, \sout{(SA 2+0)}, \textbf{(SB 1+6)}, (SG 9+0), (SAC 4+4), \sout{(SAD 5+1)}, (SADG 9+0)}                                                  \\
+                      \hline
+                      5         & \lr{\sout{(S 0+6)}, \sout{(SA 2+0)}, \sout{(SB 1+6)}, (SG 9+0), (SAC 4+4), \sout{(SAD 5+1)}, (SADG 9+0), \textbf{(SBD 3+1)}, (SBE 5+10)}                    \\
+                      \hline
+                      6         & \lr{\sout{(S 0+6)}, \sout{(SA 2+0)}, \sout{(SB 1+6)}, (SG 9+0), (SAC 4+4), \sout{(SAD 5+1)}, (SADG 9+0), \sout{(SBD 3+1)}, (SBE 5+10), \textbf{(SBDG 7+0)}} \\
+                      \hline
+                  \end{tabular}
+              \end{LTR}
+
+          \end{table} \\
+          به علت قابل‌قبول بودن تابع هیوریستیک، همان طور که انتظار داشتیم الگوریتم \lr{A$^*$} مسیر بهینه را پیدا کرد. این الگوریتم از \lr{UCS} سریع‌تر، و از الگوریتم \lr{Greedy} کندتر عمل کرد.
+
+          \vspace{1.0cm}
+
+    \item جستجوی گرافی \lr{A$^*$}:
+          \begin{table}[ht]
+              \centering
+              \renewcommand{\arraystretch}{1.5}
+              \begin{LTR}
+                  \begin{tabular}{|c|>{\raggedright\arraybackslash}p{8cm}|>{\raggedright\arraybackslash}p{3.5cm}|}
+                      \hline
+                      \lr{step} & \lr{Fringe}                                                                                                                                                        & \textbf{\lr{Closed}}   \\
+                      \hline
+                      1         & \lr{\textbf{(S 0+6)}}                                                                                                                                              & \lr{\{ \}}             \\
+                      \hline
+                      2         & \lr{\sout{(S 0+6)}, \textbf{(SA 2+0)}, (SB 1+6), (SG 9+0)}                                                                                                         & \lr{\{S\}}             \\
+                      \hline
+                      3         & \lr{\sout{(S 0+6)}, \sout{(SA 2+0)}, (SB 1+6), (SG 9+0), (SAC 4+4), \textbf{(SAD 5+1)}}                                                                            & \lr{\{S, A\}}          \\
+                      \hline
+                      4         & \lr{\sout{(S 0+6)}, \sout{(SA 2+0)}, \textbf{(SB 1+6)}, (SG 9+0), (SAC 4+4), \sout{(SAD 5+1)}, (SADG 9+0)}                                                         & \lr{\{S, A, D\}}       \\
+                      \hline
+                      5         & \lr{\sout{(S 0+6)}, \sout{(SA 2+0)}, \sout{(SB 1+6)}, (SG 9+0), (SAC 4+4), \sout{(SAD 5+1)}, (SADG 9+0), \textbf{(SBD 3+1)}, (SBE 5+10)}                           & \lr{\{S, A, D, B\}}    \\
+                      \hline
+                      6         & \lr{\sout{(S 0+6)}, \sout{(SA 2+0)}, \sout{(SB 1+6)}, (SG 9+0), \textbf{(SAC 4+4)}, \sout{(SAD 5+1)}, (SADG 9+0), \sout{(SBD 3+1)}, (SBE 5+10)}                    & \lr{\{S, A, D, B\}}    \\
+                      \hline
+                      7         & \lr{\sout{(S 0+6)}, \sout{(SA 2+0)}, \sout{(SB 1+6)}, (SG 9+0), \sout{(SAC 4+4)}, \sout{(SAD 5+1)}, (SADG 9+0), \sout{(SBD 3+1)}, (SBE 5+10), \textbf{(SACG 8+0)}} & \lr{\{S, A, D, B, C\}} \\
+                      \hline
+                  \end{tabular}
+              \end{LTR}
+          \end{table} \\
+          چون $D$ از قبل در \lr{Closed Set} بود، الگوریتم مسیر $SBD$ را بسط نداد، و در نهایت یک مسیر غیربهینه را پیدا کرد.
+
+
+\end{itemize}

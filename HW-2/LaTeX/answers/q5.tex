@@ -1,0 +1,709 @@
+\question{}
+
+\begin{ابجد}
+\item در الگوریتم \lr{backtracking}، هر گاه تمام حالات ممکن برای یک متغیر بررسی شوند و هیچ یک امکان‌پذیر نباشد، \lr{backtrack} کرده و به متغیر قبلی بر می‌گردیم. در این صورت، روند اجرای الگوریتم برای این مسئله به این صورت می‌باشد (در هر مرحله، مقداردهی‌هایی که در آن مرحله انجام شده را با رنگ قرمز، مقدارهای مراحل قبلی را با رنگ آبی مشخص کرده‌ایم. همچنین مقادیر قبلی که ممکن نبودن را با یک خط روی آنها مشخص کرده‌ایم):
+
+\begin{LTR}
+    \scriptsize
+    \renewcommand{\arraystretch}{1.8}
+
+    \begin{longtable}{|c|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|}
+
+        \hline
+        \lr{step}
+         & \lr{$A_1$}
+         & \lr{$H$}
+         & \lr{$A_4$}
+         & \lr{$F_1$}
+         & \lr{$A_2$}
+         & \lr{$F_2$}
+         & \lr{$A_3$}
+         & \lr{$T$}
+        \\
+        \hline
+        \endfirsthead
+
+        \hline
+        \lr{step}
+         & \lr{$A_1$}
+         & \lr{$H$}
+         & \lr{$A_4$}
+         & \lr{$F_1$}
+         & \lr{$A_2$}
+         & \lr{$F_2$}
+         & \lr{$A_3$}
+         & \lr{$T$}
+        \\
+        \hline
+        \endhead
+
+        \hline
+        \endfoot
+
+        \hline
+        \endlastfoot
+
+        1
+         &
+        \lr{\textcolor{red}{R}, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        2
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{red}{G}, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        3
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{red}{R}, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        4
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{red}{R}, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        5
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{\textcolor{red}{R}}, \cancel{\textcolor{red}{G}}, \textcolor{red}{B}}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        6
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{red}{R}, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        7
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{\textcolor{red}{R}}, \cancel{\textcolor{red}{G}}, \cancel{\textcolor{red}{B}}}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        8
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\cancel{R}, \textcolor{red}{G}, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        9
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\cancel{\textcolor{red}{R}}, \cancel{\textcolor{red}{G}}, \cancel{\textcolor{red}{B}}}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        10
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{red}{B}}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        11
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\cancel{\textcolor{red}{R}}, \cancel{\textcolor{red}{G}}, \cancel{\textcolor{red}{B}}}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        12
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\cancel{R}, \cancel{G}, \cancel{B}}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        13
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \cancel{B}}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        14
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{red}{G}, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        15
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\cancel{\textcolor{red}{R}}, \cancel{\textcolor{red}{G}}, \textcolor{red}{B}}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        \dots
+         &            &  &  &  &  &  &  & \\
+        \hline
+
+        34
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\cancel{R}, \cancel{\textcolor{red}{G}}, \textcolor{red}{B}}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        35
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{red}{R}, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        36
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{\textcolor{red}{R}}, \cancel{\textcolor{red}{G}}, \textcolor{red}{B}}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        37
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{red}{R}, G, B}
+         &
+        \lr{R, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        38
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{red}{R}, G, B}
+         &
+        \lr{R, G, B}
+        \\
+        \hline
+
+        39
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\textcolor{blue}{R}, G, B}
+         &
+        \lr{\cancel{\textcolor{red}{R}}, \cancel{\textcolor{red}{G}}, \textcolor{red}{B}}
+        \\
+        \hline
+    \end{longtable}
+\end{LTR}
+
+بنابراین در انتها:
+\begin{align*}
+     & A_1 = R, \quad H = G, \quad A_4 = B, \quad F_1 = R, \\
+     & A_2 = B, \quad F_2 = R, \quad A_3 = R, \quad T = B
+\end{align*}
+
+\pagebreak
+
+\item طبق قاعده \lr{MRV}، در هر مرحله پس از \lr{assign} کردن مقدار جدید، برای تمام متغیرها بررسی می‌کنیم که چه مقادیری از دامنه ممکن هستند، مقادیر غیر قابل قبول را خط زده و متغیری را انتخاب می‌کنیم که اعضای کمتری در دامنه آن باقی مانده باشند. \\
+در صورت تساوی، طبق \lr{DegreeHeuristic} متغیری را انتخاب می‌کنیم که "محدودیت‌های بیشتری دارد" (گره متناظر با آن در گراف شروط، یال‌های بیشتری دارد).
+
+\begin{LTR}
+    \scriptsize
+    \renewcommand{\arraystretch}{1.8}
+
+    \begin{longtable}{|c|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|
+        >{\centering\arraybackslash}p{1.3cm}|}
+
+        \hline
+        \lr{step}
+         & \lr{$A_1$}
+         & \lr{$H$}
+         & \lr{$A_4$}
+         & \lr{$F_1$}
+         & \lr{$A_2$}
+         & \lr{$F_2$}
+         & \lr{$A_3$}
+         & \lr{$T$}
+        \\
+        \hline
+        \endfirsthead
+
+        \hline
+        \lr{step}
+         & \lr{$A_1$}
+         & \lr{$H$}
+         & \lr{$A_4$}
+         & \lr{$F_1$}
+         & \lr{$A_2$}
+         & \lr{$F_2$}
+         & \lr{$A_3$}
+         & \lr{$T$}
+        \\
+        \hline
+        \endhead
+
+        \hline
+        \endfoot
+
+        \hline
+        \endlastfoot
+
+        1
+         &
+        \lr{\cancel{R}, G, B} % A_1
+         &
+        \lr{\textcolor{red}{R}, G, B} % H
+         &
+        \lr{\cancel{R}, G, B} % A_4
+         &
+        \lr{R, G, B} % F_1
+         &
+        \lr{\cancel{R}, G, B} % A_2
+         &
+        \lr{R, G, B} % F_2
+         &
+        \lr{\cancel{R}, G, B} %A_3
+         &
+        \lr{\cancel{R}, G, B} % T
+        \\
+        \hline
+
+        2
+         &
+        \lr{\cancel{R}, \cancel{G}, B} % A_1
+         &
+        \lr{\textcolor{blue}{R}, \cancel{G}, B} % H
+         &
+        \lr{\cancel{R}, G, B} % A_4
+         &
+        \lr{R, G, B} % F_1
+         &
+        \lr{\cancel{R}, \textcolor{red}{G}, B} % A_2
+         &
+        \lr{R, G, B} % F_2
+         &
+        \lr{\cancel{R}, \cancel{G}, B} %A_3
+         &
+        \lr{\cancel{R}, G, B} % T
+        \\
+        \hline
+
+        3
+         &
+        \lr{\cancel{R}, \cancel{G}, B} % A_1
+         &
+        \lr{\textcolor{blue}{R}, \cancel{G}, \cancel{B}} % H
+         &
+        \lr{\cancel{R}, G, \cancel{B}} % A_4
+         &
+        \lr{R, G, B} % F_1
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, \cancel{B}} % A_2
+         &
+        \lr{R, G, B} % F_2
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{red}{B}} %A_3
+         &
+        \lr{\cancel{R}, G, B} % T
+        \\
+        \hline
+
+        4
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{red}{B}} % A_1
+         &
+        \lr{\textcolor{blue}{R}, \cancel{G}, \cancel{B}} % H
+         &
+        \lr{\cancel{R}, G, \cancel{B}} % A_4
+         &
+        \lr{R, G, B} % F_1
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, \cancel{B}} % A_2
+         &
+        \lr{R, G, B} % F_2
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}} %A_3
+         &
+        \lr{\cancel{R}, G, B} % T
+        \\
+        \hline
+
+        5
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}} % A_1
+         &
+        \lr{\textcolor{blue}{R}, \cancel{G}, \cancel{B}} % H
+         &
+        \lr{\cancel{R}, \textcolor{red}{G}, \cancel{B}} % A_4
+         &
+        \lr{R, G, B} % F_1
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, \cancel{B}} % A_2
+         &
+        \lr{R, G, B} % F_2
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}} %A_3
+         &
+        \lr{\cancel{R}, G, B} % T
+        \\
+        \hline
+
+        6
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}} % A_1
+         &
+        \lr{\textcolor{blue}{R}, \cancel{G}, \cancel{B}} % H
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, \cancel{B}} % A_4
+         &
+        \lr{R, \cancel{G}, B} % F_1
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, \cancel{B}} % A_2
+         &
+        \lr{R, \cancel{G}, B} % F_2
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}} %A_3
+         &
+        \lr{\cancel{R}, \textcolor{red}{G}, B} % T
+        \\
+        \hline
+
+        7
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}} % A_1
+         &
+        \lr{\textcolor{blue}{R}, \cancel{G}, \cancel{B}} % H
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, \cancel{B}} % A_4
+         &
+        \lr{\textcolor{red}{R}, \cancel{G}, B} % F_1
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, \cancel{B}} % A_2
+         &
+        \lr{R, \cancel{G}, B} % F_2
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}} %A_3
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B} % T
+        \\
+        \hline
+
+        8
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}} % A_1
+         &
+        \lr{\textcolor{blue}{R}, \cancel{G}, \cancel{B}} % H
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, \cancel{B}} % A_4
+         &
+        \lr{\textcolor{blue}{R}, \cancel{G}, B} % F_1
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, \cancel{B}} % A_2
+         &
+        \lr{\textcolor{red}{R}, \cancel{G}, B} % F_2
+         &
+        \lr{\cancel{R}, \cancel{G}, \textcolor{blue}{B}} %A_3
+         &
+        \lr{\cancel{R}, \textcolor{blue}{G}, B} % T
+        \\
+        \hline
+    \end{longtable}
+\end{LTR}
+
+می‌بینیم که تعداد گام‌های مورد نیاز برای رسیدن به جواب بسیار کمتر از حالت قبل (الگوریتم \lr{backtracking} ساده) است. هرچند در هر مرحله نیاز به پردازش اضافه برای چک کردن دامنه هر متغیر داریم. همچنین در این حالت نیازی به \lr{backtrack} کردن نداشتیم. \\
+پاسخ نهایی نیز با پاسخی که در بخش قبل به آن رسیدیم متفاوت است:
+
+\begin{align*}
+     & A_1 = B, \quad H = R, \quad A_4 = G, \quad F_1 = R, \\
+     & A_2 = G, \quad F_2 = R, \quad A_3 = B, \quad T = G
+\end{align*}
+
+\end{ابجد}

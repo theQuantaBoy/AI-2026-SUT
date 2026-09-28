@@ -1,0 +1,50 @@
+\question{}
+
+\begin{ابجد}
+\item اگر ورودی و خروجی داده‌های آموزشی را به صورت زوج‌های $(x^{(A)}, y^{(A)}), \dots, (x^{(D)}, y^{(D)})$ در نظر بگیریم و $w$ هم بردار وزن‌ها باشد، در هر مرحله خروجی پرسپترون را به صورت $\hat{y}^{(i)} = sign(w^T x^{(i)})$ محاسبه می‌کنیم و اگر خروجی پرسپترون اشتباه بود (یعنی $\hat{y}^{(i)} \neq y^{(i)}$) آنگاه بردار وزن‌ها را طبق رابطه‌ی $w = w + \eta y^{(i)}x^{(i)}$ به‌روز می‌کنیم.
+
+حال الگوریتم را برای 4 داده‌ی داده شده اجرا می‌کنیم:
+
+\begin{enumerate}
+    \item داده‌ی $A$:
+          \begin{align*}
+              w = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}, \quad x^{(A)} = \begin{bmatrix} 1 \\ 2 \\ 1 \end{bmatrix} \Rightarrow \quad \hat{y}^{(A)} = sign(w^T x^{(A)}) = sign(0) = +1, \quad y^{(A)} = +1
+          \end{align*}
+
+    \item داده‌ی $B$:
+          \begin{align*}
+              w = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}, \quad x^{(B)} = \begin{bmatrix} 1 \\ -1 \\ 2 \end{bmatrix} \Rightarrow \quad \hat{y}^{(B)} = sign(w^T x^{(B)}) = sign(0) = +1, \quad y^{(B)} = +1
+          \end{align*}
+
+    \item داده‌ی $C$:
+          \begin{align*}
+               & w = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}, \quad x^{(C)} = \begin{bmatrix} 1 \\ 1 \\ -2 \end{bmatrix} \Rightarrow \quad \hat{y}^{(C)} = sign(w^T x^{(C)}) = sign(0) = +1, \quad y^{(C)} = -1        \\
+               & w = w + \eta y^{(C)}x^{(C)} \Rightarrow w = \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix} + (1)(-1)(\begin{bmatrix} 1 \\ 1 \\ -2 \end{bmatrix}) \Rightarrow w = \begin{bmatrix} -1 \\ -1 \\ 2 \end{bmatrix}
+          \end{align*}
+
+    \item داده‌ی $D$:
+          \begin{align*}
+              w = \begin{bmatrix} -1 \\ -1 \\ 2 \end{bmatrix}, \quad x^{(D)} = \begin{bmatrix} 1 \\ -2 \\ -1 \end{bmatrix} \Rightarrow \quad \hat{y}^{(D)} = sign(w^T x^{(D)}) = sign(-1) = -1, \quad y^{(D)} = -1
+          \end{align*}
+
+\end{enumerate}
+
+\item بردار نهایی وزن‌ها به صورت $w^T = \begin{bmatrix} -1 & -1 & 2 \end{bmatrix}$ می‌باشد. داریم:
+\begin{align*}
+     & \hat{y}^{(A)} = sign(w^T x^{(A)}) = sign(-1) = -1 \quad \textcolor{red}{\neq} \quad y^{(A)} = +1 \\
+     & \hat{y}^{(B)} = sign(w^T x^{(B)}) = sign(4) = +1 \quad  \textcolor{green}{=} \quad y^{(B)} = +1  \\
+     & \hat{y}^{(C)} = sign(w^T x^{(C)}) = sign(-6) = -1 \quad \textcolor{green}{=} \quad y^{(C)} = -1  \\
+     & \hat{y}^{(D)} = sign(w^T x^{(D)}) = sign(-1) = -1 \quad \textcolor{green}{=} \quad y^{(D)} = -1
+\end{align*}
+به جز داده‌ی آموزشی $A$، تمام داده‌های دیگر درست طبقه‌بندی شدند؛ اما این لزوما به معنای خطی جداناپذیر بودن داده‌ها نیست. ممکن است لازم باشد چند دور الگوریتم را روی تمام داده‌ها اجرا کنیم تا بتواند مرز تصمیم را به درستی پیدا کند.
+
+\item بله، داده‌ها خطی جداپذیر هستند. می‌بینیم که در هر 4 نمونه‌ی داده شده، کلاس $y$ برابر با $sign(f_2)$ است. از آنجا که تابع فعال‌سازی پرسپترون‌ها همان $sign$ است، می‌توانیم بردار وزن‌ها را به صورت $w^T = \begin{bmatrix} 0 & 0 & 1 \end{bmatrix}$ بنویسیم. درستی این وزن‌ها را بررسی می‌کنیم:
+\begin{align*}
+     & \hat{y}^{(A)} = sign(w^T x^{(A)}) = sign(1) = +1 \quad \textcolor{green}{=} \quad y^{(A)} = +1  \\
+     & \hat{y}^{(B)} = sign(w^T x^{(B)}) = sign(2) = +1 \quad  \textcolor{green}{=} \quad y^{(B)} = +1 \\
+     & \hat{y}^{(C)} = sign(w^T x^{(C)}) = sign(-2) = -1 \quad \textcolor{green}{=} \quad y^{(C)} = -1 \\
+     & \hat{y}^{(D)} = sign(w^T x^{(D)}) = sign(-1) = -1 \quad \textcolor{green}{=} \quad y^{(D)} = -1
+\end{align*}
+می‌بینیم که تمام داده‌های آموزش به درستی طبقه‌بندی شدند.
+
+\end{ابجد}

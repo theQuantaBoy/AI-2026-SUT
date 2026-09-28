@@ -1,0 +1,77 @@
+\question{}
+
+\begin{ابجد}
+\item ابتدا مقدار آنتروپی ریشه را محاسبه می‌کنیم:
+\begin{align*}
+    H(Y) & = -\sum_{y_i}P(Y = y_i)\log_2 P(Y = y_i)                                 \\
+         & = -[P(Y = 0)\log_2 P(Y = 0) + P(Y = 0)\log_2 P(Y = 0)]                   \\
+         & = -[\frac{7}{10}\log_2(\frac{7}{10}) + \frac{3}{10}\log_2(\frac{3}{10})] \\
+         & = 0.882
+\end{align*}
+
+حال آنتروپی ریشه به شرط هر ویژگی را محاسبه می‌کنیم. فرمول کلی آنتروپی شرطی به صورت زیر است:
+\begin{equation*}
+    H(Y \mid X) = \sum_{x_j} P(X = x_j) \cdot H(Y \mid X = x_j)
+\end{equation*}
+
+با توجه به یکسان بودن توزیع داده‌ها برای دو ویژگی $X_1$ و $X_3$، محاسبات آن‌ها یکسان بوده و به همراه ویژگی $X_2$ به صورت خلاصه عبارتند از:
+\begin{align*}
+    H(Y \mid X_1) = H(Y \mid X_3) & = \frac{4}{10} \left[ -\frac{3}{4}\log_2\left(\frac{3}{4}\right) - \frac{1}{4}\log_2\left(\frac{1}{4}\right) \right]                                           \\
+                                  & + \frac{6}{10} \left[ -\frac{4}{6}\log_2\left(\frac{4}{6}\right) - \frac{2}{6}\log_2\left(\frac{2}{6}\right) \right]                                           \\
+                                  & \simeq 0.4(0.811) + 0.6(0.918) \simeq 0.875                                                                                                                    \\
+    \\
+    H(Y \mid X_2)                 & = \frac{3}{10} \left[ -1\log_2(1) \right] + \frac{7}{10} \left[ -\frac{4}{7}\log_2\left(\frac{4}{7}\right) - \frac{3}{7}\log_2\left(\frac{3}{7}\right) \right] \\
+                                  & \simeq 0.3(0) + 0.7(0.985) \simeq 0.689
+\end{align*}
+
+در نهایت، مقدار بهره اطلاعاتی (\lr{Information Gain}) برای هر ویژگی از رابطه $IG(X) = H(Y) - H(Y \mid X)$ به دست می‌آید:
+\begin{align*}
+    IG(X_1) = H(Y) - H(Y \mid X_1) = 0.882 - 0.875 = 0.007 \\
+    IG(X_2) = H(Y) - H(Y \mid X_2) = 0.882 - 0.689 = 0.193 \\
+    IG(X_3) = H(Y) - H(Y \mid X_3) = 0.882 - 0.875 = 0.007
+\end{align*}
+
+بیشترین \lr{IG} در ریشه از ویژگی $X_2$ (آیا ایمیل حاوی لینک مشکوک است؟) حاصل می‌شود. پس بهتر است درخت در ریشه بر اساس این ویژگی منشعب شود.
+
+\item \textbf{خیر}؛ اگرچه می‌توانیم عمق درخت را تا جایی زیاد کنیم که دقت مدل روی داده‌های آموزشی $\% 100$ شود، اما در این صورت \lr{overfitting} رخ داده و درخت علاوه بر الگوهای اصلی، نویز داده‌های آموزشی را نیز یاد می‌گیرد و ممکن است عملکرد بدتری روی داده‌های تست داشته باشد.
+
+\item معیار \lr{Gini Impurity} به این شکل تعریف می‌شود:
+\begin{align*}
+     & G(Y) = \sum_{y_i} P(Y = y_i) \cdot (1 - P(Y = Y_i)) = 1 - \sum_{y_i} P(Y = y_i)^2 \\
+     & G(Y \mid X) = \sum_{x_j}P(X = x_j) \cdot G(Y \mid X = x_j)
+\end{align*}
+
+و به طور معادل به جای \lr{Information Gain} هم مقدار \lr{Gini Gain} به این شکل تعریف می‌شود:
+
+\begin{equation*}
+    \Delta G(X) = G(Y) - G(Y \mid X)
+\end{equation*}
+
+حال مشابه بخش قبل، محاسبات را انجام می‌دهیم:
+
+\begin{align*}
+    G(Y) = 1 - [P(Y = 0)^2 + P(Y = 1)^2] = 1 - [(\frac{7}{10})^2 + (\frac{3}{10})^2] = 0.42
+\end{align*}
+
+و برای هر متغیر داریم:
+\begin{align*}
+    G(Y \mid X_1) & = P(X_1 = 0) \cdot G(Y \mid X_1 = 0) + P(X_1 = 1) \cdot G(Y \mid X_1 = 0)                                                                  \\
+                  & = (\frac{4}{10})\cdot(1 - [(\frac{3}{4})^2 + (\frac{1}{4})^2]) + (\frac{6}{10})\cdot(1 - [(\frac{4}{6})^2 + (\frac{2}{6})^2]) \simeq 0.417 \\
+    \\
+    G(Y \mid X_2) & = P(X_2 = 0) \cdot G(Y \mid X_2 = 0) + P(X_2 = 1) \cdot G(Y \mid X_2 = 0)                                                                  \\
+                  & = (\frac{3}{10})\cdot(1 - [(1)^2)) + (\frac{7}{10})\cdot(1 - [(\frac{4}{7})^2 + (\frac{3}{7})^2]) \simeq 0.343                             \\
+    \\
+    G(Y \mid X_2) & = P(X_3 = 0) \cdot G(Y \mid X_3 = 0) + P(X_3 = 1) \cdot G(Y \mid X_3 = 0)                                                                  \\
+                  & = (\frac{4}{10})\cdot(1 - [(\frac{3}{4})^2 + (\frac{1}{4})^2]) + (\frac{6}{10})\cdot(1 - [(\frac{4}{6})^2 + (\frac{2}{6})^2]) \simeq 0.417
+\end{align*}
+
+مقادیر \lr{Gini Gain} به این صورت می‌باشد:
+\begin{align*}
+    \Delta G(X_1) = G(Y) - G(Y \mid X_1) = 0.42 - 0.417 = 0.003 \\
+    \Delta G(X_2) = G(Y) - G(Y \mid X_2) = 0.42 - 0.343 = 0.077 \\
+    \Delta G(X_3) = G(Y) - G(Y \mid X_3) = 0.42 - 0.417 = 0.003
+\end{align*}
+
+مشابه بخش بخش الف که از آنتروپی استفاده کردیم، در این بخش هم با استفاده از \lr{Gini Impurity} دیدیم که بیشترین کاهش ناخالصی جینی ($\Delta G$) به ازای متغیر $X_2$ (آیا ایمیل حاوی لینک‌های مشکوک است؟) حاصل می‌شود. بنابراین باید این ویژگی را برای انشعاب در ریشه انتخاب کنیم.
+
+\end{ابجد}

@@ -1,0 +1,2001 @@
+Hair_Color,Region_Climate,Companion_Pet,Core_Value,Weapon,House
+Red,Hot,Cat,Wealth,Sword,Lannister
+Auburn,Cold,Dragon,Honor,Valyrian Steel,Stark
+Black,Temperate,Stag,Power,Dagger,Baratheon
+Blonde,Temperate,Lion,Wealth,Axe,Lannister
+Brown,Temperate,Cat,Power,Sword,Lannister
+Silver,Temperate,None,Justice,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Wealth,Dagger,Lannister
+Auburn,Cold,Direwolf,Honor,Axe,Stark
+Blonde,Windy,None,Ambition,Valyrian Steel,Lannister
+Auburn,Temperate,Dragon,Wealth,Dagger,Targaryen
+Blonde,Hot,Lion,Wealth,Dagger,Lannister
+Brown,Cold,None,Loyalty,Sword,Stark
+Auburn,Cold,Lion,Loyalty,Sword,Stark
+Blonde,Hot,Cat,Wealth,Sword,Lannister
+Blonde,Hot,Cat,Ambition,Dagger,Lannister
+Brown,Temperate,Direwolf,Loyalty,Axe,Stark
+Blonde,Cold,Lion,Honor,Warhammer,Lannister
+Blonde,Humid,Lion,Wealth,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Justice,Warhammer,Stark
+Auburn,Humid,Dragon,Justice,Valyrian Steel,Targaryen
+Auburn,Hot,Stag,Power,Spear,Baratheon
+Auburn,Cold,Stag,Power,Bow,Baratheon
+Black,Windy,Direwolf,Knowledge,Dagger,Stark
+Red,Windy,Lion,Power,Bow,Lannister
+Black,Temperate,Cat,Wealth,Bow,Lannister
+Black,Temperate,Stag,Justice,Axe,Baratheon
+Silver,Hot,Raven,Power,Valyrian Steel,Targaryen
+Silver,Temperate,None,Power,Bow,Targaryen
+Brown,Cold,Direwolf,Knowledge,Sword,Stark
+Silver,Humid,Dragon,Justice,Sword,Targaryen
+Blonde,Humid,None,Wealth,Warhammer,Lannister
+Black,Humid,Stag,Honor,Warhammer,Baratheon
+Silver,Hot,Stag,Ambition,Warhammer,Baratheon
+Brown,Windy,Lion,Wealth,Warhammer,Baratheon
+Black,Temperate,Stag,Honor,Bow,Targaryen
+Blonde,Temperate,Lion,Knowledge,Bow,Lannister
+Brown,Temperate,None,Power,Dagger,Lannister
+Black,Cold,Direwolf,Justice,Bow,Stark
+Silver,Windy,Stag,Loyalty,Dagger,Baratheon
+Brown,Cold,Direwolf,Loyalty,Sword,Stark
+Red,Windy,Stag,Honor,Valyrian Steel,Baratheon
+Red,Windy,None,Wealth,Spear,Lannister
+Black,Temperate,Stag,Justice,Warhammer,Baratheon
+Silver,Humid,None,Power,Valyrian Steel,Targaryen
+Brown,Windy,Cat,Power,Axe,Baratheon
+Brown,Windy,None,Loyalty,Dagger,Baratheon
+Silver,Humid,Raven,Justice,Dagger,Targaryen
+Blonde,Temperate,Dragon,Power,Dagger,Lannister
+Blonde,Cold,Dragon,Ambition,Axe,Lannister
+Brown,Temperate,Direwolf,Loyalty,Sword,Stark
+Brown,Cold,Direwolf,Loyalty,Valyrian Steel,Stark
+Blonde,Hot,Lion,Wealth,Sword,Lannister
+Red,Temperate,Direwolf,Honor,Sword,Stark
+Black,Cold,Lion,Loyalty,Sword,Stark
+Brown,Windy,Stag,Power,Axe,Baratheon
+Brown,Cold,Lion,Wealth,Sword,Lannister
+Brown,Humid,Lion,Knowledge,Dagger,Baratheon
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Blonde,Temperate,None,Power,Sword,Lannister
+Brown,Cold,Direwolf,Justice,Axe,Stark
+Blonde,Temperate,Cat,Ambition,Spear,Lannister
+Red,Temperate,Lion,Wealth,Sword,Baratheon
+Brown,Cold,Direwolf,Ambition,Sword,Stark
+Black,Temperate,Cat,Loyalty,Warhammer,Baratheon
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Hot,Cat,Power,Valyrian Steel,Baratheon
+Black,Windy,Cat,Wealth,Warhammer,Baratheon
+Brown,Temperate,None,Wealth,Sword,Lannister
+Black,Hot,None,Justice,Warhammer,Baratheon
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Temperate,Dragon,Wealth,Valyrian Steel,Targaryen
+Auburn,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Silver,Temperate,Cat,Wealth,Valyrian Steel,Targaryen
+Silver,Temperate,None,Power,Dagger,Targaryen
+Red,Windy,Cat,Power,Sword,Baratheon
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Blonde,Cold,Direwolf,Honor,Spear,Stark
+Silver,Windy,Dragon,Power,Valyrian Steel,Targaryen
+Red,Cold,None,Honor,Valyrian Steel,Stark
+Red,Temperate,Cat,Justice,Dagger,Lannister
+Silver,Hot,Dragon,Loyalty,Valyrian Steel,Targaryen
+Black,Windy,None,Wealth,Axe,Stark
+Black,Cold,Direwolf,Knowledge,Sword,Stark
+Red,Windy,Stag,Power,Warhammer,Baratheon
+Silver,Windy,None,Justice,Valyrian Steel,Targaryen
+Silver,Windy,None,Wealth,Sword,Targaryen
+Brown,Windy,Lion,Power,Spear,Lannister
+Auburn,Windy,Stag,Power,Axe,Baratheon
+Auburn,Temperate,None,Justice,Axe,Stark
+Auburn,Humid,Dragon,Knowledge,Sword,Targaryen
+Blonde,Temperate,Stag,Loyalty,Axe,Baratheon
+Brown,Cold,Cat,Knowledge,Valyrian Steel,Stark
+Silver,Humid,Dragon,Power,Sword,Targaryen
+Silver,Humid,Dragon,Power,Sword,Targaryen
+Blonde,Temperate,Lion,Ambition,Axe,Lannister
+Brown,Temperate,Cat,Ambition,Valyrian Steel,Lannister
+Auburn,Cold,Direwolf,Wealth,Valyrian Steel,Stark
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Black,Cold,Direwolf,Honor,Bow,Stark
+Black,Windy,Stag,Wealth,Sword,Baratheon
+Black,Cold,Direwolf,Honor,Axe,Stark
+Black,Cold,Direwolf,Honor,Dagger,Stark
+Silver,Humid,None,Wealth,Spear,Targaryen
+Brown,Temperate,Stag,Power,Dagger,Baratheon
+Silver,Hot,Raven,Honor,Spear,Targaryen
+Auburn,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Honor,Axe,Lannister
+Black,Cold,None,Knowledge,Spear,Stark
+Silver,Temperate,Dragon,Loyalty,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Power,Dagger,Lannister
+Red,Temperate,Lion,Wealth,Sword,Lannister
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Brown,Cold,None,Honor,Bow,Stark
+Auburn,Windy,Stag,Wealth,Warhammer,Baratheon
+Black,Windy,Stag,Ambition,Bow,Baratheon
+Blonde,Temperate,Lion,Wealth,Warhammer,Lannister
+Blonde,Temperate,Stag,Power,Sword,Lannister
+Blonde,Temperate,None,Wealth,Valyrian Steel,Lannister
+Brown,Temperate,Direwolf,Power,Bow,Stark
+Auburn,Hot,None,Wealth,Valyrian Steel,Lannister
+Black,Cold,Cat,Loyalty,Warhammer,Baratheon
+Brown,Cold,Direwolf,Honor,Warhammer,Stark
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Loyalty,Dagger,Lannister
+Auburn,Cold,Direwolf,Justice,Axe,Stark
+Red,Cold,Direwolf,Honor,Dagger,Stark
+Silver,Humid,Raven,Power,Dagger,Targaryen
+Brown,Cold,Direwolf,Loyalty,Valyrian Steel,Stark
+Brown,Temperate,None,Wealth,Spear,Lannister
+Silver,Hot,Raven,Ambition,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Blonde,Cold,None,Ambition,Dagger,Lannister
+Auburn,Humid,Dragon,Loyalty,Valyrian Steel,Targaryen
+Silver,Humid,None,Wealth,Sword,Lannister
+Auburn,Temperate,None,Justice,Dagger,Baratheon
+Silver,Temperate,Dragon,Ambition,Sword,Targaryen
+Blonde,Temperate,None,Wealth,Axe,Lannister
+Silver,Hot,Dragon,Power,Bow,Targaryen
+Blonde,Humid,Lion,Power,Warhammer,Lannister
+Brown,Cold,None,Honor,Bow,Stark
+Red,Cold,Direwolf,Honor,Dagger,Stark
+Auburn,Cold,Direwolf,Honor,Axe,Stark
+Silver,Humid,Dragon,Knowledge,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Honor,Sword,Lannister
+Silver,Cold,Dragon,Power,Valyrian Steel,Targaryen
+Black,Temperate,Direwolf,Loyalty,Sword,Stark
+Black,Temperate,Raven,Ambition,Bow,Stark
+Silver,Hot,None,Honor,Sword,Targaryen
+Black,Cold,Direwolf,Wealth,Valyrian Steel,Stark
+Black,Temperate,Stag,Loyalty,Axe,Baratheon
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Justice,Valyrian Steel,Targaryen
+Black,Temperate,Cat,Power,Bow,Lannister
+Auburn,Windy,Direwolf,Honor,Sword,Stark
+Auburn,Cold,Direwolf,Honor,Axe,Stark
+Silver,Hot,Direwolf,Power,Valyrian Steel,Targaryen
+Blonde,Windy,Stag,Wealth,Valyrian Steel,Baratheon
+Blonde,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Brown,Cold,Direwolf,Honor,Bow,Stark
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Cold,Dragon,Loyalty,Sword,Targaryen
+Blonde,Temperate,None,Wealth,Sword,Lannister
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Power,Sword,Targaryen
+Black,Windy,Stag,Wealth,Dagger,Baratheon
+Brown,Windy,Stag,Ambition,Warhammer,Baratheon
+Silver,Cold,None,Justice,Sword,Stark
+Auburn,Temperate,Dragon,Justice,Sword,Targaryen
+Silver,Windy,None,Justice,Valyrian Steel,Targaryen
+Auburn,Hot,Raven,Honor,Warhammer,Baratheon
+Black,Cold,Direwolf,Honor,Dagger,Stark
+Black,Cold,Cat,Honor,Axe,Stark
+Blonde,Temperate,Direwolf,Justice,Sword,Baratheon
+Black,Windy,Raven,Justice,Axe,Baratheon
+Silver,Hot,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Hot,Raven,Power,Sword,Targaryen
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Black,Hot,Stag,Power,Valyrian Steel,Baratheon
+Silver,Hot,None,Justice,Valyrian Steel,Targaryen
+Silver,Windy,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Power,Bow,Targaryen
+Silver,Temperate,None,Justice,Valyrian Steel,Targaryen
+Black,Hot,Cat,Ambition,Bow,Baratheon
+Black,Temperate,Stag,Loyalty,Warhammer,Baratheon
+Auburn,Cold,Direwolf,Justice,Valyrian Steel,Stark
+Brown,Windy,Stag,Honor,Spear,Baratheon
+Blonde,Hot,Stag,Wealth,Bow,Lannister
+Silver,Humid,Dragon,Knowledge,Valyrian Steel,Targaryen
+Black,Windy,Stag,Power,Warhammer,Baratheon
+Silver,Humid,None,Ambition,Valyrian Steel,Targaryen
+Silver,Humid,Raven,Power,Valyrian Steel,Targaryen
+Black,Windy,Stag,Power,Warhammer,Baratheon
+Auburn,Temperate,Direwolf,Honor,Bow,Stark
+Red,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Justice,Dagger,Targaryen
+Auburn,Temperate,None,Ambition,Sword,Targaryen
+Blonde,Temperate,Cat,Wealth,Warhammer,Lannister
+Auburn,Windy,None,Loyalty,Sword,Stark
+Black,Cold,Dragon,Knowledge,Valyrian Steel,Targaryen
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Honor,Spear,Stark
+Silver,Windy,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Justice,Spear,Lannister
+Black,Temperate,Direwolf,Ambition,Axe,Baratheon
+Black,Windy,Stag,Justice,Warhammer,Baratheon
+Brown,Humid,Dragon,Power,Sword,Targaryen
+Blonde,Windy,Stag,Wealth,Sword,Baratheon
+Silver,Hot,Dragon,Wealth,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Blonde,Temperate,Lion,Knowledge,Valyrian Steel,Lannister
+Blonde,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Cold,Dragon,Knowledge,Sword,Stark
+Blonde,Temperate,Lion,Honor,Sword,Lannister
+Blonde,Temperate,Raven,Ambition,Sword,Lannister
+Black,Cold,Dragon,Honor,Valyrian Steel,Stark
+Brown,Cold,None,Loyalty,Warhammer,Stark
+Brown,Temperate,None,Power,Valyrian Steel,Lannister
+Blonde,Temperate,Raven,Wealth,Sword,Lannister
+Black,Humid,Direwolf,Justice,Bow,Stark
+Brown,Cold,Direwolf,Knowledge,Dagger,Stark
+Red,Windy,Direwolf,Honor,Spear,Stark
+Black,Cold,Direwolf,Ambition,Dagger,Stark
+Silver,Hot,Dragon,Justice,Sword,Targaryen
+Black,Humid,Cat,Knowledge,Warhammer,Baratheon
+Black,Temperate,Stag,Justice,Bow,Baratheon
+Silver,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Windy,Direwolf,Ambition,Axe,Stark
+Auburn,Cold,Direwolf,Honor,Axe,Stark
+Black,Windy,Direwolf,Loyalty,Bow,Stark
+Silver,Windy,Dragon,Power,Sword,Targaryen
+Brown,Cold,Raven,Wealth,Sword,Stark
+Silver,Temperate,Dragon,Honor,Valyrian Steel,Targaryen
+Silver,Humid,Raven,Loyalty,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Knowledge,Valyrian Steel,Stark
+Black,Cold,None,Honor,Axe,Stark
+Black,Windy,None,Honor,Valyrian Steel,Stark
+Brown,Hot,Dragon,Knowledge,Valyrian Steel,Targaryen
+Black,Cold,Dragon,Honor,Spear,Stark
+Black,Windy,Stag,Justice,Bow,Baratheon
+Brown,Windy,Cat,Knowledge,Valyrian Steel,Targaryen
+Black,Cold,None,Ambition,Warhammer,Baratheon
+Brown,Cold,Direwolf,Honor,Spear,Stark
+Black,Windy,Stag,Justice,Warhammer,Baratheon
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Windy,Stag,Ambition,Sword,Baratheon
+Black,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Cold,Lion,Wealth,Spear,Lannister
+Silver,Humid,Raven,Ambition,Valyrian Steel,Targaryen
+Black,Temperate,Direwolf,Loyalty,Warhammer,Baratheon
+Auburn,Cold,None,Honor,Sword,Stark
+Blonde,Temperate,Lion,Ambition,Dagger,Lannister
+Blonde,Hot,Lion,Wealth,Sword,Lannister
+Brown,Cold,Direwolf,Loyalty,Sword,Stark
+Silver,Windy,Dragon,Ambition,Valyrian Steel,Targaryen
+Brown,Windy,Direwolf,Loyalty,Valyrian Steel,Stark
+Black,Cold,Direwolf,Ambition,Valyrian Steel,Stark
+Blonde,Hot,Lion,Ambition,Dagger,Lannister
+Silver,Humid,Dragon,Loyalty,Bow,Targaryen
+Brown,Hot,Dragon,Honor,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Loyalty,Valyrian Steel,Targaryen
+Black,Windy,Stag,Power,Warhammer,Baratheon
+Red,Temperate,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Cold,None,Honor,Bow,Stark
+Black,Cold,Direwolf,Honor,Warhammer,Stark
+Brown,Humid,Direwolf,Knowledge,Bow,Stark
+Blonde,Windy,Raven,Power,Valyrian Steel,Lannister
+Blonde,Temperate,None,Wealth,Valyrian Steel,Lannister
+Brown,Cold,Direwolf,Loyalty,Bow,Stark
+Silver,Windy,Dragon,Power,Bow,Targaryen
+Red,Humid,Raven,Loyalty,Warhammer,Baratheon
+Brown,Cold,Raven,Loyalty,Dagger,Stark
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Windy,None,Power,Valyrian Steel,Baratheon
+Auburn,Cold,None,Ambition,Warhammer,Stark
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Red,Temperate,None,Wealth,Valyrian Steel,Lannister
+Black,Windy,Cat,Wealth,Dagger,Baratheon
+Blonde,Temperate,Lion,Honor,Sword,Lannister
+Black,Windy,Stag,Power,Dagger,Baratheon
+Blonde,Temperate,Lion,Power,Warhammer,Lannister
+Black,Temperate,Direwolf,Honor,Valyrian Steel,Stark
+Brown,Windy,Direwolf,Honor,Sword,Stark
+Blonde,Temperate,Lion,Power,Valyrian Steel,Lannister
+Blonde,Hot,Stag,Loyalty,Spear,Baratheon
+Auburn,Cold,Direwolf,Honor,Bow,Stark
+Brown,Windy,Direwolf,Power,Dagger,Baratheon
+Black,Temperate,Direwolf,Knowledge,Sword,Stark
+Black,Windy,Cat,Justice,Axe,Stark
+Brown,Cold,Raven,Honor,Axe,Stark
+Black,Temperate,Direwolf,Honor,Bow,Stark
+Brown,Hot,None,Ambition,Bow,Lannister
+Silver,Hot,None,Honor,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Power,Warhammer,Lannister
+Brown,Cold,Stag,Knowledge,Spear,Stark
+Black,Cold,Direwolf,Honor,Sword,Stark
+Brown,Hot,Stag,Power,Warhammer,Baratheon
+Silver,Temperate,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Cold,None,Honor,Dagger,Stark
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Cold,None,Ambition,Dagger,Targaryen
+Blonde,Windy,Cat,Ambition,Warhammer,Baratheon
+Black,Humid,Direwolf,Honor,Bow,Stark
+Blonde,Humid,Lion,Wealth,Sword,Lannister
+Brown,Temperate,Raven,Justice,Warhammer,Baratheon
+Black,Windy,Stag,Ambition,Warhammer,Baratheon
+Silver,Temperate,Dragon,Justice,Valyrian Steel,Targaryen
+Black,Cold,Lion,Loyalty,Sword,Stark
+Brown,Hot,Cat,Power,Dagger,Lannister
+Blonde,Temperate,None,Power,Valyrian Steel,Lannister
+Blonde,Cold,Direwolf,Loyalty,Valyrian Steel,Stark
+Black,Temperate,Direwolf,Knowledge,Dagger,Stark
+Silver,Hot,Raven,Knowledge,Sword,Targaryen
+Blonde,Humid,Dragon,Justice,Dagger,Targaryen
+Blonde,Temperate,None,Justice,Axe,Lannister
+Silver,Hot,Cat,Wealth,Spear,Lannister
+Black,Humid,Dragon,Ambition,Sword,Targaryen
+Silver,Humid,Dragon,Loyalty,Valyrian Steel,Targaryen
+Silver,Humid,Raven,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Silver,Hot,Dragon,Power,Warhammer,Targaryen
+Black,Cold,Stag,Justice,Valyrian Steel,Stark
+Silver,Humid,Raven,Power,Warhammer,Targaryen
+Black,Windy,Stag,Wealth,Axe,Baratheon
+Black,Cold,None,Wealth,Dagger,Lannister
+Auburn,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Silver,Hot,Raven,Ambition,Bow,Targaryen
+Silver,Humid,Lion,Justice,Sword,Targaryen
+Black,Cold,Direwolf,Justice,Sword,Stark
+Brown,Cold,Cat,Honor,Axe,Stark
+Black,Humid,Direwolf,Knowledge,Bow,Stark
+Auburn,Cold,Raven,Justice,Dagger,Lannister
+Black,Humid,Stag,Ambition,Valyrian Steel,Baratheon
+Brown,Cold,Direwolf,Power,Valyrian Steel,Stark
+Silver,Temperate,Dragon,Power,Spear,Targaryen
+Black,Humid,Stag,Justice,Warhammer,Baratheon
+Brown,Cold,Direwolf,Wealth,Axe,Stark
+Red,Hot,Direwolf,Power,Bow,Stark
+Silver,Temperate,Dragon,Ambition,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Honor,Bow,Stark
+Silver,Hot,None,Justice,Valyrian Steel,Targaryen
+Blonde,Windy,Cat,Honor,Sword,Stark
+Auburn,Temperate,Stag,Wealth,Warhammer,Lannister
+Black,Windy,None,Power,Dagger,Baratheon
+Brown,Temperate,Cat,Ambition,Spear,Lannister
+Black,Temperate,Cat,Ambition,Axe,Baratheon
+Red,Temperate,None,Wealth,Bow,Baratheon
+Auburn,Cold,Direwolf,Wealth,Axe,Stark
+Auburn,Temperate,Direwolf,Justice,Bow,Stark
+Brown,Windy,Stag,Justice,Spear,Baratheon
+Black,Cold,Direwolf,Loyalty,Valyrian Steel,Stark
+Brown,Cold,Raven,Loyalty,Axe,Stark
+Silver,Hot,None,Knowledge,Dagger,Targaryen
+Brown,Temperate,Lion,Knowledge,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Wealth,Dagger,Stark
+Silver,Hot,None,Knowledge,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Ambition,Sword,Targaryen
+Auburn,Cold,Raven,Honor,Spear,Stark
+Silver,Hot,Dragon,Honor,Dagger,Targaryen
+Auburn,Humid,Raven,Ambition,Valyrian Steel,Targaryen
+Auburn,Cold,Direwolf,Honor,Axe,Stark
+Brown,Temperate,Lion,Justice,Sword,Lannister
+Blonde,Hot,None,Wealth,Valyrian Steel,Lannister
+Auburn,Hot,None,Honor,Valyrian Steel,Lannister
+Silver,Humid,Dragon,Justice,Sword,Targaryen
+Silver,Temperate,Dragon,Honor,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Loyalty,Sword,Lannister
+Auburn,Windy,Stag,Justice,Bow,Baratheon
+Black,Temperate,Direwolf,Knowledge,Valyrian Steel,Stark
+Black,Cold,Raven,Loyalty,Sword,Baratheon
+Auburn,Cold,Raven,Ambition,Axe,Stark
+Blonde,Temperate,Lion,Ambition,Warhammer,Lannister
+Black,Windy,Stag,Loyalty,Warhammer,Baratheon
+Brown,Cold,Direwolf,Power,Spear,Stark
+Blonde,Windy,Stag,Loyalty,Sword,Baratheon
+Black,Cold,Direwolf,Honor,Sword,Stark
+Black,Humid,Stag,Loyalty,Axe,Baratheon
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Black,Temperate,Direwolf,Knowledge,Bow,Stark
+Black,Cold,Stag,Wealth,Axe,Baratheon
+Brown,Temperate,Raven,Justice,Sword,Lannister
+Black,Cold,Direwolf,Justice,Dagger,Stark
+Silver,Humid,None,Ambition,Sword,Targaryen
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Honor,Bow,Stark
+Silver,Temperate,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Hot,Direwolf,Ambition,Valyrian Steel,Targaryen
+Auburn,Humid,Dragon,Justice,Sword,Targaryen
+Blonde,Cold,Lion,Wealth,Dagger,Lannister
+Blonde,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Humid,Dragon,Ambition,Spear,Targaryen
+Brown,Temperate,None,Ambition,Valyrian Steel,Lannister
+Black,Hot,Stag,Power,Warhammer,Baratheon
+Silver,Hot,Dragon,Power,Bow,Targaryen
+Black,Temperate,Direwolf,Loyalty,Warhammer,Baratheon
+Blonde,Temperate,Lion,Power,Warhammer,Lannister
+Blonde,Windy,Lion,Knowledge,Sword,Lannister
+Black,Temperate,None,Wealth,Sword,Lannister
+Black,Cold,Direwolf,Loyalty,Axe,Stark
+Auburn,Temperate,None,Wealth,Valyrian Steel,Lannister
+Silver,Windy,Dragon,Justice,Dagger,Targaryen
+Blonde,Temperate,Lion,Power,Dagger,Lannister
+Brown,Hot,Dragon,Power,Axe,Targaryen
+Black,Cold,None,Knowledge,Bow,Stark
+Silver,Hot,Dragon,Knowledge,Warhammer,Targaryen
+Auburn,Windy,Stag,Loyalty,Bow,Baratheon
+Black,Temperate,Cat,Wealth,Valyrian Steel,Lannister
+Brown,Humid,None,Wealth,Warhammer,Baratheon
+Brown,Cold,None,Justice,Sword,Stark
+Red,Temperate,None,Power,Spear,Lannister
+Blonde,Hot,Lion,Power,Dagger,Lannister
+Brown,Windy,Dragon,Ambition,Valyrian Steel,Targaryen
+Red,Hot,Dragon,Ambition,Warhammer,Targaryen
+Auburn,Cold,None,Power,Dagger,Baratheon
+Auburn,Cold,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Ambition,Spear,Targaryen
+Red,Cold,None,Loyalty,Warhammer,Stark
+Black,Hot,None,Loyalty,Sword,Lannister
+Silver,Humid,Raven,Ambition,Valyrian Steel,Targaryen
+Silver,Cold,Direwolf,Honor,Sword,Stark
+Blonde,Hot,None,Wealth,Valyrian Steel,Lannister
+Blonde,Temperate,Cat,Ambition,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Honor,Bow,Stark
+Red,Humid,None,Power,Dagger,Baratheon
+Brown,Windy,Direwolf,Honor,Spear,Stark
+Auburn,Cold,Direwolf,Knowledge,Axe,Stark
+Brown,Cold,Lion,Loyalty,Warhammer,Stark
+Silver,Temperate,Raven,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Loyalty,Bow,Lannister
+Brown,Cold,Direwolf,Loyalty,Sword,Stark
+Black,Temperate,Cat,Power,Sword,Baratheon
+Blonde,Hot,Lion,Ambition,Valyrian Steel,Lannister
+Auburn,Temperate,None,Wealth,Valyrian Steel,Lannister
+Blonde,Temperate,Raven,Honor,Sword,Lannister
+Silver,Windy,Raven,Justice,Valyrian Steel,Targaryen
+Blonde,Hot,Raven,Wealth,Axe,Lannister
+Black,Humid,Stag,Power,Axe,Baratheon
+Blonde,Hot,Lion,Ambition,Valyrian Steel,Lannister
+Brown,Cold,None,Honor,Spear,Stark
+Silver,Temperate,Lion,Ambition,Dagger,Targaryen
+Silver,Humid,Dragon,Justice,Spear,Targaryen
+Blonde,Temperate,Cat,Wealth,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Honor,Bow,Stark
+Blonde,Temperate,Cat,Honor,Dagger,Lannister
+Black,Windy,Stag,Ambition,Warhammer,Baratheon
+Red,Temperate,Direwolf,Ambition,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Loyalty,Axe,Stark
+Blonde,Cold,Lion,Power,Valyrian Steel,Lannister
+Black,Windy,Raven,Ambition,Dagger,Baratheon
+Blonde,Temperate,Lion,Wealth,Dagger,Lannister
+Silver,Temperate,None,Justice,Valyrian Steel,Targaryen
+Black,Windy,Lion,Power,Bow,Baratheon
+Black,Cold,Cat,Knowledge,Sword,Stark
+Silver,Hot,Stag,Power,Axe,Baratheon
+Black,Humid,None,Ambition,Sword,Baratheon
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Blonde,Temperate,Raven,Wealth,Bow,Lannister
+Black,Humid,Stag,Honor,Bow,Baratheon
+Blonde,Cold,None,Justice,Valyrian Steel,Lannister
+Black,Windy,Stag,Justice,Valyrian Steel,Baratheon
+Red,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Windy,Direwolf,Loyalty,Valyrian Steel,Stark
+Red,Humid,None,Ambition,Bow,Baratheon
+Blonde,Temperate,Raven,Power,Sword,Lannister
+Silver,Hot,Direwolf,Honor,Dagger,Targaryen
+Black,Windy,Stag,Power,Warhammer,Baratheon
+Silver,Hot,Dragon,Knowledge,Valyrian Steel,Targaryen
+Black,Cold,None,Justice,Sword,Stark
+Silver,Hot,Raven,Justice,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Loyalty,Dagger,Targaryen
+Silver,Temperate,None,Power,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Ambition,Bow,Stark
+Blonde,Humid,Stag,Loyalty,Warhammer,Baratheon
+Blonde,Hot,None,Ambition,Spear,Lannister
+Silver,Hot,Dragon,Loyalty,Bow,Targaryen
+Brown,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Blonde,Hot,None,Wealth,Valyrian Steel,Lannister
+Silver,Temperate,None,Knowledge,Spear,Targaryen
+Black,Temperate,None,Honor,Spear,Lannister
+Blonde,Windy,Lion,Wealth,Bow,Lannister
+Black,Temperate,None,Honor,Spear,Stark
+Brown,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Black,Hot,None,Ambition,Valyrian Steel,Baratheon
+Silver,Hot,Stag,Wealth,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Justice,Sword,Targaryen
+Brown,Cold,Lion,Loyalty,Sword,Stark
+Blonde,Temperate,None,Ambition,Valyrian Steel,Lannister
+Silver,Windy,Cat,Ambition,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Brown,Windy,Stag,Justice,Dagger,Baratheon
+Blonde,Hot,Raven,Wealth,Sword,Lannister
+Black,Windy,None,Power,Bow,Baratheon
+Silver,Hot,None,Wealth,Valyrian Steel,Targaryen
+Brown,Temperate,Raven,Knowledge,Warhammer,Targaryen
+Auburn,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Hot,Dragon,Loyalty,Valyrian Steel,Targaryen
+Black,Windy,Dragon,Loyalty,Axe,Baratheon
+Blonde,Temperate,Lion,Loyalty,Spear,Lannister
+Brown,Cold,Direwolf,Loyalty,Bow,Stark
+Black,Windy,Direwolf,Loyalty,Axe,Stark
+Black,Temperate,Direwolf,Honor,Sword,Stark
+Red,Temperate,Cat,Wealth,Valyrian Steel,Lannister
+Black,Temperate,Dragon,Wealth,Bow,Stark
+Blonde,Temperate,Stag,Wealth,Bow,Lannister
+Red,Humid,Dragon,Wealth,Valyrian Steel,Targaryen
+Blonde,Temperate,Cat,Power,Bow,Lannister
+Red,Cold,Direwolf,Loyalty,Axe,Stark
+Blonde,Temperate,None,Ambition,Sword,Lannister
+Red,Temperate,None,Honor,Axe,Stark
+Silver,Hot,Direwolf,Loyalty,Spear,Targaryen
+Red,Temperate,None,Wealth,Warhammer,Lannister
+Black,Cold,Stag,Honor,Warhammer,Baratheon
+Black,Temperate,Stag,Ambition,Sword,Baratheon
+Silver,Humid,Dragon,Ambition,Sword,Targaryen
+Auburn,Temperate,Direwolf,Honor,Sword,Stark
+Black,Cold,Direwolf,Loyalty,Axe,Stark
+Silver,Windy,None,Ambition,Valyrian Steel,Targaryen
+Black,Temperate,Stag,Ambition,Warhammer,Baratheon
+Blonde,Temperate,None,Power,Dagger,Lannister
+Black,Humid,Direwolf,Loyalty,Axe,Stark
+Silver,Humid,Dragon,Knowledge,Valyrian Steel,Targaryen
+Black,Windy,Stag,Power,Sword,Baratheon
+Blonde,Temperate,Stag,Ambition,Sword,Lannister
+Silver,Humid,Dragon,Power,Bow,Targaryen
+Black,Cold,None,Loyalty,Spear,Stark
+Black,Cold,Direwolf,Knowledge,Axe,Stark
+Blonde,Hot,None,Wealth,Valyrian Steel,Lannister
+Black,Hot,Stag,Justice,Warhammer,Baratheon
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Brown,Humid,Raven,Power,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Black,Cold,Stag,Knowledge,Sword,Stark
+Black,Cold,None,Honor,Bow,Stark
+Black,Cold,Direwolf,Honor,Sword,Stark
+Blonde,Temperate,None,Power,Dagger,Lannister
+Blonde,Temperate,Raven,Knowledge,Sword,Lannister
+Blonde,Hot,Cat,Power,Sword,Lannister
+Silver,Hot,Dragon,Ambition,Axe,Targaryen
+Auburn,Temperate,Cat,Wealth,Sword,Lannister
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Temperate,Direwolf,Ambition,Warhammer,Stark
+Black,Hot,Raven,Power,Bow,Baratheon
+Auburn,Humid,Lion,Power,Warhammer,Baratheon
+Black,Cold,None,Power,Dagger,Baratheon
+Black,Windy,Lion,Power,Warhammer,Baratheon
+Red,Temperate,Lion,Wealth,Axe,Lannister
+Blonde,Temperate,Stag,Knowledge,Warhammer,Lannister
+Black,Hot,Stag,Knowledge,Sword,Targaryen
+Brown,Humid,Lion,Ambition,Warhammer,Baratheon
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Temperate,Dragon,Justice,Valyrian Steel,Targaryen
+Brown,Windy,Stag,Justice,Warhammer,Baratheon
+Silver,Hot,Cat,Power,Axe,Targaryen
+Blonde,Temperate,Lion,Ambition,Dagger,Lannister
+Black,Cold,Direwolf,Loyalty,Spear,Stark
+Silver,Humid,Dragon,Justice,Valyrian Steel,Targaryen
+Blonde,Temperate,Raven,Wealth,Warhammer,Lannister
+Brown,Temperate,Cat,Loyalty,Sword,Stark
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Auburn,Cold,Direwolf,Honor,Spear,Stark
+Auburn,Hot,Lion,Ambition,Valyrian Steel,Lannister
+Auburn,Temperate,Stag,Honor,Sword,Baratheon
+Black,Windy,Raven,Justice,Valyrian Steel,Baratheon
+Black,Cold,Direwolf,Honor,Bow,Stark
+Silver,Hot,Lion,Power,Sword,Targaryen
+Silver,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Loyalty,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Red,Hot,Stag,Power,Valyrian Steel,Baratheon
+Brown,Windy,Cat,Loyalty,Sword,Baratheon
+Blonde,Temperate,Lion,Ambition,Sword,Lannister
+Blonde,Temperate,Raven,Wealth,Sword,Lannister
+Silver,Temperate,Cat,Knowledge,Valyrian Steel,Targaryen
+Black,Cold,Cat,Loyalty,Warhammer,Baratheon
+Brown,Windy,Stag,Knowledge,Spear,Baratheon
+Brown,Cold,None,Knowledge,Axe,Stark
+Blonde,Cold,Lion,Wealth,Warhammer,Lannister
+Auburn,Windy,Stag,Justice,Warhammer,Baratheon
+Brown,Cold,Cat,Justice,Sword,Stark
+Silver,Windy,Stag,Ambition,Sword,Baratheon
+Blonde,Windy,None,Ambition,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Honor,Axe,Stark
+Black,Cold,Direwolf,Justice,Dagger,Stark
+Black,Temperate,Raven,Power,Axe,Baratheon
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Brown,Cold,Direwolf,Ambition,Sword,Stark
+Silver,Cold,Direwolf,Loyalty,Sword,Stark
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Cold,Raven,Honor,Bow,Stark
+Silver,Temperate,Raven,Ambition,Valyrian Steel,Lannister
+Blonde,Hot,None,Ambition,Spear,Lannister
+Silver,Temperate,Direwolf,Power,Warhammer,Stark
+Brown,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Black,Windy,Direwolf,Knowledge,Axe,Stark
+Blonde,Temperate,Cat,Wealth,Warhammer,Lannister
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Black,Windy,None,Loyalty,Bow,Baratheon
+Brown,Temperate,Lion,Power,Valyrian Steel,Lannister
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,None,Loyalty,Axe,Stark
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Black,Temperate,Stag,Power,Warhammer,Baratheon
+Blonde,Hot,Lion,Power,Dagger,Lannister
+Red,Humid,Dragon,Ambition,Bow,Targaryen
+Black,Cold,Direwolf,Loyalty,Valyrian Steel,Stark
+Blonde,Temperate,Dragon,Power,Dagger,Lannister
+Black,Cold,Stag,Power,Sword,Baratheon
+Silver,Humid,Dragon,Power,Dagger,Targaryen
+Black,Windy,Stag,Ambition,Bow,Baratheon
+Silver,Windy,Dragon,Wealth,Sword,Targaryen
+Black,Windy,Stag,Power,Sword,Baratheon
+Brown,Windy,Stag,Loyalty,Warhammer,Baratheon
+Brown,Humid,None,Loyalty,Bow,Lannister
+Red,Cold,Raven,Knowledge,Warhammer,Lannister
+Black,Hot,Lion,Power,Axe,Baratheon
+Brown,Humid,Lion,Wealth,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Blonde,Temperate,Stag,Power,Valyrian Steel,Lannister
+Silver,Windy,Raven,Ambition,Sword,Targaryen
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Red,Hot,Cat,Power,Bow,Baratheon
+Black,Cold,Raven,Honor,Dagger,Stark
+Blonde,Temperate,Lion,Power,Dagger,Lannister
+Black,Cold,None,Honor,Dagger,Stark
+Auburn,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Blonde,Cold,None,Ambition,Sword,Lannister
+Silver,Temperate,None,Power,Sword,Targaryen
+Silver,Cold,Lion,Knowledge,Sword,Targaryen
+Brown,Cold,None,Loyalty,Valyrian Steel,Stark
+Red,Cold,Direwolf,Honor,Sword,Stark
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Hot,Stag,Wealth,Axe,Lannister
+Black,Temperate,Lion,Knowledge,Dagger,Baratheon
+Black,Hot,Raven,Ambition,Axe,Baratheon
+Blonde,Humid,Lion,Ambition,Valyrian Steel,Lannister
+Black,Temperate,Lion,Wealth,Warhammer,Lannister
+Black,Windy,Lion,Power,Sword,Baratheon
+Auburn,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Hot,Cat,Wealth,Bow,Lannister
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Blonde,Temperate,None,Wealth,Spear,Lannister
+Auburn,Cold,Direwolf,Power,Dagger,Stark
+Black,Windy,None,Justice,Warhammer,Baratheon
+Silver,Humid,Dragon,Ambition,Warhammer,Targaryen
+Silver,Temperate,None,Knowledge,Valyrian Steel,Targaryen
+Blonde,Humid,Lion,Ambition,Dagger,Lannister
+Blonde,Temperate,Lion,Honor,Bow,Lannister
+Red,Windy,Direwolf,Loyalty,Bow,Stark
+Silver,Windy,Dragon,Ambition,Spear,Targaryen
+Black,Windy,Stag,Ambition,Sword,Baratheon
+Black,Windy,Stag,Power,Dagger,Baratheon
+Blonde,Temperate,Lion,Loyalty,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Loyalty,Axe,Stark
+Black,Cold,Raven,Justice,Sword,Stark
+Auburn,Humid,Direwolf,Honor,Sword,Stark
+Silver,Cold,Dragon,Honor,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Justice,Dagger,Lannister
+Brown,Cold,None,Honor,Axe,Stark
+Black,Temperate,Cat,Honor,Sword,Stark
+Red,Cold,Stag,Power,Warhammer,Baratheon
+Black,Temperate,Direwolf,Power,Axe,Stark
+Blonde,Temperate,Lion,Power,Valyrian Steel,Lannister
+Silver,Temperate,Dragon,Power,Warhammer,Targaryen
+Silver,Cold,Dragon,Ambition,Axe,Targaryen
+Silver,Humid,None,Power,Axe,Targaryen
+Blonde,Temperate,None,Power,Valyrian Steel,Lannister
+Blonde,Hot,Lion,Power,Bow,Lannister
+Red,Cold,None,Justice,Dagger,Stark
+Silver,Humid,Dragon,Knowledge,Valyrian Steel,Targaryen
+Blonde,Temperate,Cat,Ambition,Sword,Lannister
+Brown,Windy,Stag,Ambition,Sword,Baratheon
+Black,Windy,None,Power,Bow,Baratheon
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Hot,Stag,Loyalty,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Ambition,Axe,Targaryen
+Silver,Humid,Raven,Power,Sword,Targaryen
+Brown,Hot,Direwolf,Loyalty,Bow,Stark
+Auburn,Temperate,Stag,Honor,Sword,Lannister
+Black,Cold,Direwolf,Knowledge,Sword,Stark
+Blonde,Windy,Lion,Ambition,Dagger,Lannister
+Silver,Temperate,Dragon,Ambition,Dagger,Targaryen
+Black,Temperate,Cat,Power,Dagger,Baratheon
+Auburn,Humid,Stag,Ambition,Valyrian Steel,Targaryen
+Black,Temperate,Lion,Power,Warhammer,Lannister
+Black,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Ambition,Warhammer,Lannister
+Black,Temperate,Cat,Honor,Sword,Stark
+Silver,Hot,Direwolf,Knowledge,Valyrian Steel,Targaryen
+Black,Humid,Lion,Loyalty,Axe,Baratheon
+Silver,Hot,Dragon,Power,Sword,Targaryen
+Red,Cold,Direwolf,Ambition,Valyrian Steel,Stark
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Humid,None,Knowledge,Valyrian Steel,Targaryen
+Silver,Cold,Dragon,Knowledge,Valyrian Steel,Targaryen
+Black,Temperate,None,Wealth,Dagger,Baratheon
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Dagger,Lannister
+Silver,Hot,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Hot,Lion,Knowledge,Bow,Targaryen
+Silver,Hot,None,Honor,Dagger,Targaryen
+Brown,Cold,Direwolf,Loyalty,Bow,Stark
+Silver,Hot,None,Power,Sword,Targaryen
+Red,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Windy,Direwolf,Honor,Bow,Stark
+Auburn,Cold,Direwolf,Loyalty,Axe,Stark
+Silver,Humid,None,Ambition,Valyrian Steel,Targaryen
+Silver,Cold,Direwolf,Honor,Bow,Stark
+Black,Cold,Stag,Honor,Sword,Stark
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Bow,Lannister
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Humid,Dragon,Knowledge,Valyrian Steel,Targaryen
+Brown,Temperate,None,Wealth,Warhammer,Baratheon
+Black,Windy,Dragon,Power,Dagger,Baratheon
+Auburn,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Red,Cold,Raven,Honor,Sword,Stark
+Blonde,Temperate,Lion,Power,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Silver,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Hot,None,Knowledge,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Honor,Axe,Stark
+Silver,Hot,Stag,Power,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Honor,Bow,Stark
+Blonde,Temperate,None,Wealth,Dagger,Lannister
+Black,Cold,Direwolf,Ambition,Axe,Stark
+Black,Cold,Dragon,Wealth,Dagger,Baratheon
+Blonde,Windy,None,Power,Sword,Targaryen
+Black,Cold,Direwolf,Honor,Bow,Stark
+Brown,Windy,Stag,Power,Warhammer,Baratheon
+Black,Cold,Direwolf,Honor,Axe,Stark
+Black,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Silver,Hot,Dragon,Power,Sword,Targaryen
+Brown,Cold,Direwolf,Power,Valyrian Steel,Stark
+Black,Cold,Cat,Justice,Sword,Stark
+Auburn,Temperate,Stag,Power,Valyrian Steel,Baratheon
+Brown,Cold,Stag,Wealth,Axe,Stark
+Brown,Windy,Dragon,Ambition,Sword,Baratheon
+Blonde,Temperate,Cat,Justice,Sword,Lannister
+Silver,Temperate,Dragon,Justice,Valyrian Steel,Targaryen
+Red,Temperate,Stag,Ambition,Dagger,Baratheon
+Blonde,Temperate,Cat,Wealth,Dagger,Lannister
+Silver,Hot,Raven,Honor,Dagger,Targaryen
+Silver,Hot,Cat,Loyalty,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Power,Warhammer,Targaryen
+Silver,Hot,Direwolf,Knowledge,Spear,Targaryen
+Black,Hot,None,Power,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Knowledge,Valyrian Steel,Stark
+Black,Humid,Direwolf,Justice,Axe,Stark
+Black,Windy,None,Loyalty,Bow,Baratheon
+Black,Cold,Direwolf,Knowledge,Axe,Stark
+Blonde,Temperate,Lion,Wealth,Dagger,Lannister
+Black,Cold,Raven,Honor,Spear,Stark
+Silver,Windy,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Raven,Ambition,Valyrian Steel,Lannister
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,Raven,Power,Spear,Stark
+Brown,Temperate,Direwolf,Honor,Sword,Stark
+Brown,Windy,Stag,Ambition,Warhammer,Baratheon
+Red,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Black,Windy,None,Ambition,Bow,Baratheon
+Black,Hot,Lion,Knowledge,Sword,Baratheon
+Black,Temperate,None,Honor,Valyrian Steel,Stark
+Brown,Temperate,Cat,Justice,Warhammer,Baratheon
+Blonde,Temperate,Cat,Wealth,Bow,Lannister
+Auburn,Temperate,None,Power,Warhammer,Baratheon
+Silver,Windy,Dragon,Ambition,Sword,Targaryen
+Silver,Humid,Dragon,Justice,Bow,Targaryen
+Brown,Cold,Raven,Honor,Sword,Stark
+Black,Temperate,Cat,Loyalty,Warhammer,Baratheon
+Brown,Hot,Raven,Wealth,Valyrian Steel,Lannister
+Silver,Hot,None,Ambition,Sword,Targaryen
+Auburn,Cold,None,Power,Warhammer,Lannister
+Black,Windy,Direwolf,Loyalty,Bow,Stark
+Black,Cold,None,Honor,Bow,Stark
+Blonde,Temperate,None,Power,Dagger,Lannister
+Red,Cold,Direwolf,Loyalty,Axe,Stark
+Blonde,Hot,Lion,Ambition,Warhammer,Lannister
+Blonde,Temperate,None,Power,Axe,Lannister
+Red,Hot,None,Power,Sword,Targaryen
+Black,Cold,Direwolf,Justice,Warhammer,Stark
+Silver,Temperate,Dragon,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Wealth,Warhammer,Lannister
+Silver,Cold,None,Power,Sword,Targaryen
+Black,Cold,Cat,Honor,Axe,Stark
+Silver,Humid,None,Honor,Valyrian Steel,Targaryen
+Red,Temperate,None,Loyalty,Bow,Lannister
+Red,Hot,Lion,Knowledge,Axe,Lannister
+Black,Cold,Raven,Honor,Warhammer,Stark
+Black,Cold,Direwolf,Honor,Sword,Stark
+Silver,Hot,Dragon,Justice,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Bow,Lannister
+Blonde,Temperate,None,Wealth,Warhammer,Lannister
+Black,Humid,Direwolf,Loyalty,Axe,Stark
+Red,Cold,Raven,Honor,Valyrian Steel,Stark
+Brown,Temperate,None,Justice,Warhammer,Stark
+Black,Temperate,Stag,Power,Axe,Baratheon
+Blonde,Temperate,Lion,Wealth,Dagger,Lannister
+Silver,Humid,Dragon,Knowledge,Sword,Targaryen
+Blonde,Cold,Lion,Justice,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Ambition,Sword,Lannister
+Silver,Windy,Dragon,Ambition,Dagger,Targaryen
+Silver,Temperate,None,Justice,Valyrian Steel,Targaryen
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Sword,Lannister
+Black,Cold,Direwolf,Knowledge,Spear,Stark
+Brown,Temperate,Stag,Ambition,Sword,Lannister
+Auburn,Cold,Direwolf,Honor,Spear,Stark
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Black,Cold,None,Honor,Axe,Stark
+Black,Humid,Direwolf,Justice,Sword,Stark
+Silver,Humid,Dragon,Knowledge,Axe,Targaryen
+Auburn,Cold,Direwolf,Loyalty,Bow,Stark
+Brown,Windy,None,Honor,Axe,Baratheon
+Blonde,Hot,None,Wealth,Axe,Lannister
+Black,Humid,Stag,Justice,Warhammer,Baratheon
+Silver,Hot,Dragon,Ambition,Dagger,Targaryen
+Auburn,Humid,Raven,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,Raven,Wealth,Valyrian Steel,Lannister
+Blonde,Temperate,None,Power,Sword,Lannister
+Brown,Temperate,Lion,Justice,Valyrian Steel,Lannister
+Black,Humid,None,Loyalty,Warhammer,Baratheon
+Black,Cold,Direwolf,Honor,Sword,Stark
+Black,Windy,Raven,Loyalty,Bow,Baratheon
+Silver,Humid,Raven,Justice,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Axe,Lannister
+Blonde,Hot,Stag,Justice,Axe,Baratheon
+Black,Windy,Raven,Wealth,Spear,Baratheon
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Black,Cold,Raven,Loyalty,Bow,Stark
+Brown,Windy,Stag,Power,Sword,Baratheon
+Silver,Hot,Dragon,Loyalty,Valyrian Steel,Targaryen
+Black,Cold,None,Loyalty,Valyrian Steel,Stark
+Silver,Temperate,Stag,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,Cat,Wealth,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Wealth,Sword,Stark
+Silver,Windy,None,Knowledge,Dagger,Targaryen
+Blonde,Hot,Dragon,Justice,Sword,Targaryen
+Silver,Hot,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Wealth,Sword,Targaryen
+Black,Temperate,Stag,Ambition,Sword,Baratheon
+Silver,Cold,Dragon,Ambition,Sword,Targaryen
+Black,Hot,Direwolf,Wealth,Sword,Stark
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Blonde,Hot,None,Justice,Valyrian Steel,Lannister
+Silver,Hot,Dragon,Knowledge,Valyrian Steel,Targaryen
+Silver,Hot,None,Wealth,Valyrian Steel,Targaryen
+Blonde,Humid,Stag,Power,Warhammer,Baratheon
+Silver,Temperate,Direwolf,Justice,Dagger,Targaryen
+Silver,Humid,None,Loyalty,Sword,Targaryen
+Silver,Hot,None,Ambition,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Temperate,Raven,Knowledge,Axe,Targaryen
+Blonde,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,Stag,Wealth,Axe,Stark
+Black,Cold,Raven,Justice,Sword,Stark
+Auburn,Temperate,None,Wealth,Valyrian Steel,Lannister
+Auburn,Humid,Dragon,Justice,Spear,Targaryen
+Blonde,Hot,None,Wealth,Valyrian Steel,Lannister
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Windy,Dragon,Ambition,Warhammer,Targaryen
+Black,Windy,Stag,Power,Warhammer,Baratheon
+Blonde,Temperate,None,Wealth,Sword,Lannister
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Auburn,Temperate,Dragon,Ambition,Warhammer,Targaryen
+Silver,Hot,Direwolf,Ambition,Valyrian Steel,Targaryen
+Black,Windy,Direwolf,Power,Valyrian Steel,Stark
+Silver,Humid,None,Knowledge,Valyrian Steel,Targaryen
+Red,Temperate,Lion,Ambition,Dagger,Lannister
+Brown,Cold,None,Honor,Warhammer,Stark
+Silver,Windy,Dragon,Power,Valyrian Steel,Targaryen
+Black,Temperate,Stag,Power,Warhammer,Baratheon
+Blonde,Temperate,Lion,Ambition,Axe,Lannister
+Black,Temperate,None,Knowledge,Warhammer,Baratheon
+Black,Cold,Cat,Power,Bow,Baratheon
+Black,Temperate,Direwolf,Power,Axe,Stark
+Black,Hot,Direwolf,Loyalty,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Blonde,Humid,None,Power,Dagger,Lannister
+Red,Cold,Direwolf,Honor,Sword,Stark
+Red,Temperate,Cat,Wealth,Sword,Lannister
+Blonde,Temperate,Lion,Wealth,Bow,Lannister
+Red,Hot,Stag,Justice,Sword,Baratheon
+Red,Cold,Stag,Justice,Dagger,Baratheon
+Black,Cold,Direwolf,Loyalty,Valyrian Steel,Stark
+Blonde,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Black,Windy,Stag,Loyalty,Warhammer,Baratheon
+Red,Temperate,Lion,Ambition,Sword,Lannister
+Blonde,Temperate,None,Power,Valyrian Steel,Lannister
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Wealth,Valyrian Steel,Stark
+Brown,Temperate,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Red,Windy,Direwolf,Honor,Valyrian Steel,Stark
+Black,Hot,Stag,Ambition,Axe,Baratheon
+Silver,Cold,Dragon,Power,Dagger,Targaryen
+Blonde,Temperate,Lion,Justice,Spear,Lannister
+Blonde,Windy,Lion,Knowledge,Valyrian Steel,Lannister
+Silver,Humid,Dragon,Loyalty,Valyrian Steel,Targaryen
+Auburn,Cold,Raven,Power,Sword,Stark
+Red,Cold,Direwolf,Honor,Axe,Stark
+Blonde,Temperate,Lion,Wealth,Spear,Lannister
+Silver,Hot,Dragon,Justice,Valyrian Steel,Targaryen
+Black,Cold,Stag,Power,Dagger,Baratheon
+Brown,Humid,Dragon,Ambition,Dagger,Targaryen
+Brown,Cold,Direwolf,Honor,Spear,Stark
+Silver,Humid,Dragon,Knowledge,Valyrian Steel,Targaryen
+Red,Hot,Stag,Ambition,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Power,Bow,Stark
+Auburn,Hot,Dragon,Knowledge,Sword,Targaryen
+Brown,Cold,Direwolf,Power,Bow,Stark
+Blonde,Cold,None,Ambition,Dagger,Stark
+Brown,Temperate,Stag,Honor,Spear,Stark
+Black,Windy,Stag,Loyalty,Sword,Baratheon
+Silver,Hot,Dragon,Knowledge,Sword,Targaryen
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Raven,Ambition,Valyrian Steel,Lannister
+Silver,Temperate,Dragon,Power,Sword,Targaryen
+Black,Windy,Direwolf,Ambition,Dagger,Stark
+Brown,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Black,Humid,Direwolf,Loyalty,Dagger,Stark
+Red,Windy,Lion,Ambition,Warhammer,Baratheon
+Silver,Humid,None,Justice,Warhammer,Targaryen
+Black,Temperate,Dragon,Wealth,Sword,Stark
+Blonde,Humid,Raven,Wealth,Dagger,Lannister
+Red,Cold,Direwolf,Honor,Spear,Stark
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Humid,None,Wealth,Axe,Stark
+Brown,Temperate,Direwolf,Wealth,Warhammer,Stark
+Black,Windy,Stag,Wealth,Valyrian Steel,Baratheon
+Brown,Cold,Raven,Power,Axe,Baratheon
+Blonde,Hot,Cat,Wealth,Sword,Lannister
+Black,Cold,Raven,Honor,Sword,Stark
+Silver,Hot,Dragon,Loyalty,Spear,Targaryen
+Brown,Cold,Direwolf,Loyalty,Spear,Stark
+Black,Cold,Direwolf,Loyalty,Valyrian Steel,Stark
+Silver,Temperate,Stag,Ambition,Warhammer,Baratheon
+Silver,Humid,None,Wealth,Valyrian Steel,Targaryen
+Black,Windy,Stag,Justice,Sword,Baratheon
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Black,Temperate,Cat,Knowledge,Valyrian Steel,Baratheon
+Brown,Cold,Direwolf,Loyalty,Axe,Stark
+Silver,Hot,Dragon,Justice,Dagger,Targaryen
+Blonde,Temperate,Lion,Ambition,Bow,Lannister
+Black,Windy,None,Wealth,Valyrian Steel,Baratheon
+Auburn,Temperate,Lion,Wealth,Bow,Lannister
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Brown,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Black,Windy,Stag,Ambition,Warhammer,Baratheon
+Silver,Cold,Dragon,Justice,Valyrian Steel,Targaryen
+Red,Temperate,Cat,Ambition,Valyrian Steel,Baratheon
+Brown,Temperate,Raven,Wealth,Warhammer,Baratheon
+Black,Windy,Stag,Power,Axe,Baratheon
+Auburn,Windy,Dragon,Justice,Valyrian Steel,Targaryen
+Black,Cold,None,Loyalty,Dagger,Stark
+Brown,Cold,Direwolf,Loyalty,Sword,Stark
+Black,Windy,Stag,Loyalty,Sword,Baratheon
+Auburn,Cold,Raven,Justice,Sword,Stark
+Brown,Windy,None,Power,Dagger,Stark
+Red,Windy,Direwolf,Honor,Sword,Stark
+Auburn,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Temperate,None,Ambition,Spear,Targaryen
+Black,Cold,Direwolf,Justice,Axe,Stark
+Black,Windy,Cat,Wealth,Axe,Baratheon
+Silver,Hot,Dragon,Justice,Valyrian Steel,Targaryen
+Black,Windy,Stag,Justice,Spear,Baratheon
+Silver,Hot,Dragon,Power,Sword,Targaryen
+Black,Temperate,Cat,Power,Dagger,Baratheon
+Red,Hot,None,Honor,Dagger,Stark
+Black,Cold,Direwolf,Wealth,Axe,Stark
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Blonde,Temperate,Stag,Loyalty,Warhammer,Baratheon
+Blonde,Hot,Raven,Wealth,Dagger,Lannister
+Brown,Cold,None,Power,Axe,Stark
+Auburn,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Ambition,Axe,Lannister
+Black,Windy,Stag,Wealth,Axe,Baratheon
+Brown,Cold,Cat,Honor,Sword,Stark
+Auburn,Hot,Lion,Power,Sword,Lannister
+Brown,Temperate,Stag,Wealth,Valyrian Steel,Baratheon
+Brown,Cold,Lion,Loyalty,Spear,Stark
+Auburn,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Temperate,Lion,Wealth,Bow,Lannister
+Blonde,Cold,None,Justice,Axe,Lannister
+Black,Temperate,None,Wealth,Sword,Lannister
+Silver,Cold,Dragon,Power,Dagger,Targaryen
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Auburn,Humid,Lion,Ambition,Valyrian Steel,Lannister
+Silver,Humid,None,Power,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Black,Temperate,Direwolf,Loyalty,Valyrian Steel,Baratheon
+Silver,Cold,Dragon,Knowledge,Valyrian Steel,Targaryen
+Brown,Cold,Stag,Power,Sword,Stark
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Black,Humid,Cat,Wealth,Dagger,Baratheon
+Blonde,Temperate,None,Ambition,Sword,Lannister
+Black,Humid,Direwolf,Loyalty,Sword,Stark
+Silver,Humid,Dragon,Ambition,Axe,Targaryen
+Auburn,Temperate,None,Loyalty,Sword,Targaryen
+Blonde,Hot,None,Wealth,Dagger,Lannister
+Red,Humid,None,Loyalty,Axe,Baratheon
+Black,Humid,Stag,Ambition,Warhammer,Baratheon
+Blonde,Temperate,Cat,Wealth,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Ambition,Bow,Lannister
+Blonde,Cold,Direwolf,Honor,Axe,Stark
+Silver,Hot,None,Power,Spear,Targaryen
+Blonde,Temperate,Direwolf,Loyalty,Sword,Stark
+Brown,Temperate,Cat,Wealth,Valyrian Steel,Lannister
+Auburn,Cold,None,Honor,Dagger,Stark
+Auburn,Temperate,Lion,Power,Sword,Lannister
+Red,Windy,Direwolf,Justice,Axe,Stark
+Brown,Cold,None,Honor,Spear,Stark
+Black,Cold,None,Loyalty,Dagger,Stark
+Blonde,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Blonde,Cold,Lion,Wealth,Valyrian Steel,Lannister
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Temperate,Dragon,Power,Sword,Targaryen
+Silver,Temperate,None,Power,Dagger,Targaryen
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Black,Cold,Direwolf,Honor,Warhammer,Stark
+Blonde,Temperate,Lion,Wealth,Bow,Lannister
+Silver,Temperate,None,Honor,Valyrian Steel,Targaryen
+Silver,Temperate,Dragon,Ambition,Valyrian Steel,Targaryen
+Auburn,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Justice,Spear,Stark
+Red,Cold,Direwolf,Honor,Sword,Stark
+Blonde,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Loyalty,Dagger,Stark
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Hot,None,Knowledge,Bow,Targaryen
+Brown,Temperate,Raven,Ambition,Valyrian Steel,Lannister
+Black,Humid,Cat,Ambition,Warhammer,Baratheon
+Brown,Temperate,Direwolf,Power,Sword,Stark
+Black,Temperate,Cat,Power,Warhammer,Lannister
+Black,Temperate,None,Wealth,Valyrian Steel,Baratheon
+Black,Windy,Lion,Power,Warhammer,Baratheon
+Auburn,Temperate,Cat,Power,Warhammer,Lannister
+Black,Hot,Direwolf,Loyalty,Axe,Stark
+Silver,Hot,Dragon,Justice,Warhammer,Targaryen
+Black,Temperate,Stag,Justice,Axe,Baratheon
+Auburn,Hot,Lion,Ambition,Axe,Baratheon
+Silver,Hot,Raven,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Dagger,Lannister
+Silver,Hot,None,Ambition,Valyrian Steel,Targaryen
+Black,Humid,Dragon,Knowledge,Dagger,Targaryen
+Black,Windy,Direwolf,Power,Sword,Stark
+Brown,Cold,Direwolf,Honor,Dagger,Stark
+Black,Cold,Direwolf,Honor,Spear,Stark
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Cold,Dragon,Honor,Valyrian Steel,Targaryen
+Red,Humid,Stag,Justice,Warhammer,Baratheon
+Blonde,Cold,Direwolf,Wealth,Axe,Stark
+Blonde,Temperate,None,Power,Axe,Lannister
+Red,Temperate,Direwolf,Ambition,Warhammer,Baratheon
+Auburn,Windy,Stag,Honor,Axe,Baratheon
+Blonde,Temperate,None,Wealth,Dagger,Lannister
+Black,Temperate,Direwolf,Justice,Sword,Stark
+Blonde,Temperate,None,Knowledge,Valyrian Steel,Lannister
+Auburn,Cold,None,Honor,Bow,Stark
+Auburn,Cold,Lion,Ambition,Spear,Lannister
+Black,Cold,None,Loyalty,Axe,Stark
+Black,Cold,Stag,Power,Bow,Baratheon
+Brown,Temperate,Stag,Ambition,Valyrian Steel,Baratheon
+Black,Windy,Stag,Loyalty,Sword,Baratheon
+Brown,Cold,Direwolf,Loyalty,Sword,Stark
+Silver,Windy,Dragon,Wealth,Valyrian Steel,Targaryen
+Red,Humid,Stag,Justice,Bow,Baratheon
+Silver,Cold,Dragon,Power,Valyrian Steel,Targaryen
+Black,Windy,Dragon,Loyalty,Sword,Baratheon
+Brown,Windy,Raven,Loyalty,Valyrian Steel,Baratheon
+Auburn,Hot,Dragon,Knowledge,Sword,Targaryen
+Silver,Humid,Direwolf,Power,Valyrian Steel,Targaryen
+Black,Humid,Cat,Loyalty,Axe,Baratheon
+Blonde,Windy,Lion,Wealth,Sword,Lannister
+Brown,Cold,Direwolf,Power,Sword,Stark
+Brown,Temperate,None,Ambition,Spear,Stark
+Brown,Hot,Cat,Power,Sword,Stark
+Brown,Windy,Stag,Power,Bow,Baratheon
+Silver,Temperate,None,Honor,Valyrian Steel,Targaryen
+Brown,Temperate,None,Ambition,Sword,Lannister
+Black,Cold,None,Wealth,Axe,Stark
+Brown,Windy,Direwolf,Power,Sword,Stark
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Black,Humid,Cat,Power,Sword,Targaryen
+Red,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Honor,Bow,Stark
+Black,Temperate,None,Wealth,Valyrian Steel,Targaryen
+Black,Hot,Stag,Justice,Valyrian Steel,Baratheon
+Silver,Humid,Dragon,Knowledge,Sword,Targaryen
+Brown,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Temperate,Dragon,Justice,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Power,Sword,Lannister
+Brown,Humid,Direwolf,Ambition,Dagger,Stark
+Black,Cold,Lion,Honor,Bow,Stark
+Silver,Temperate,Lion,Power,Dagger,Lannister
+Black,Windy,Cat,Loyalty,Warhammer,Baratheon
+Blonde,Temperate,Cat,Power,Axe,Lannister
+Blonde,Cold,Stag,Ambition,Warhammer,Baratheon
+Auburn,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Brown,Temperate,None,Power,Bow,Targaryen
+Black,Cold,Direwolf,Honor,Bow,Stark
+Silver,Hot,Raven,Justice,Valyrian Steel,Targaryen
+Brown,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Black,Cold,Raven,Loyalty,Sword,Stark
+Silver,Humid,Dragon,Justice,Dagger,Targaryen
+Black,Hot,Dragon,Knowledge,Sword,Targaryen
+Silver,Humid,Raven,Loyalty,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Loyalty,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Ambition,Dagger,Lannister
+Auburn,Temperate,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Cold,Stag,Power,Axe,Baratheon
+Silver,Humid,Dragon,Loyalty,Sword,Targaryen
+Blonde,Windy,None,Wealth,Bow,Lannister
+Black,Temperate,Stag,Justice,Sword,Baratheon
+Red,Cold,Direwolf,Knowledge,Valyrian Steel,Stark
+Red,Temperate,Lion,Justice,Spear,Lannister
+Blonde,Temperate,Lion,Honor,Dagger,Lannister
+Black,Windy,Stag,Power,Bow,Baratheon
+Black,Temperate,None,Justice,Sword,Stark
+Black,Temperate,None,Loyalty,Bow,Baratheon
+Blonde,Hot,Lion,Justice,Sword,Lannister
+Blonde,Temperate,Lion,Knowledge,Valyrian Steel,Lannister
+Brown,Windy,Stag,Ambition,Axe,Baratheon
+Blonde,Temperate,Lion,Justice,Bow,Lannister
+Brown,Cold,Direwolf,Honor,Axe,Stark
+Brown,Hot,Lion,Wealth,Bow,Lannister
+Silver,Cold,Raven,Knowledge,Sword,Targaryen
+Red,Hot,Dragon,Power,Axe,Stark
+Red,Temperate,Raven,Wealth,Bow,Baratheon
+Silver,Windy,Dragon,Knowledge,Valyrian Steel,Targaryen
+Black,Hot,Stag,Wealth,Valyrian Steel,Baratheon
+Black,Temperate,Lion,Justice,Bow,Baratheon
+Blonde,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Brown,Cold,Stag,Loyalty,Axe,Baratheon
+Silver,Cold,None,Justice,Sword,Baratheon
+Blonde,Temperate,Lion,Power,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Ambition,Dagger,Lannister
+Black,Temperate,Direwolf,Loyalty,Sword,Stark
+Blonde,Humid,None,Wealth,Axe,Lannister
+Brown,Cold,None,Justice,Bow,Stark
+Auburn,Hot,Direwolf,Wealth,Dagger,Lannister
+Black,Cold,Direwolf,Honor,Sword,Stark
+Brown,Hot,Direwolf,Honor,Valyrian Steel,Stark
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Windy,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Hot,Lion,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Ambition,Dagger,Lannister
+Brown,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Blonde,Hot,Raven,Power,Axe,Targaryen
+Black,Windy,Stag,Power,Sword,Baratheon
+Black,Humid,Stag,Ambition,Valyrian Steel,Baratheon
+Blonde,Windy,Raven,Wealth,Sword,Lannister
+Black,Windy,Stag,Wealth,Warhammer,Baratheon
+Black,Cold,Direwolf,Loyalty,Warhammer,Stark
+Blonde,Temperate,Dragon,Justice,Valyrian Steel,Targaryen
+Black,Humid,Stag,Wealth,Sword,Baratheon
+Black,Temperate,Lion,Justice,Warhammer,Baratheon
+Auburn,Hot,Dragon,Honor,Bow,Targaryen
+Brown,Hot,Stag,Loyalty,Sword,Baratheon
+Black,Cold,Cat,Honor,Sword,Stark
+Brown,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Silver,Windy,Raven,Ambition,Valyrian Steel,Targaryen
+Red,Cold,Direwolf,Loyalty,Bow,Stark
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Blonde,Hot,Lion,Power,Sword,Lannister
+Black,Windy,Direwolf,Power,Dagger,Baratheon
+Black,Windy,Stag,Knowledge,Sword,Baratheon
+Black,Windy,None,Justice,Dagger,Baratheon
+Silver,Temperate,Dragon,Honor,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Blonde,Temperate,Cat,Power,Valyrian Steel,Lannister
+Brown,Temperate,Stag,Power,Sword,Lannister
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Ambition,Sword,Targaryen
+Auburn,Cold,Direwolf,Justice,Axe,Stark
+Black,Cold,Direwolf,Justice,Bow,Stark
+Auburn,Hot,Dragon,Knowledge,Valyrian Steel,Targaryen
+Black,Windy,Stag,Justice,Sword,Baratheon
+Brown,Temperate,Stag,Wealth,Bow,Lannister
+Auburn,Temperate,Stag,Power,Sword,Lannister
+Silver,Hot,Cat,Power,Sword,Lannister
+Black,Windy,Stag,Justice,Warhammer,Baratheon
+Silver,Hot,Dragon,Ambition,Sword,Targaryen
+Auburn,Temperate,Raven,Loyalty,Dagger,Baratheon
+Blonde,Hot,Lion,Power,Valyrian Steel,Lannister
+Silver,Humid,Dragon,Power,Spear,Targaryen
+Auburn,Temperate,None,Wealth,Dagger,Lannister
+Brown,Temperate,Stag,Power,Spear,Baratheon
+Silver,Hot,None,Loyalty,Dagger,Targaryen
+Blonde,Temperate,Stag,Power,Sword,Lannister
+Black,Temperate,Cat,Justice,Valyrian Steel,Baratheon
+Blonde,Temperate,Lion,Ambition,Sword,Lannister
+Black,Cold,Cat,Wealth,Sword,Stark
+Brown,Cold,Direwolf,Knowledge,Dagger,Stark
+Red,Windy,Stag,Wealth,Axe,Baratheon
+Red,Windy,Stag,Justice,Spear,Baratheon
+Black,Cold,Direwolf,Honor,Axe,Stark
+Brown,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Loyalty,Valyrian Steel,Stark
+Auburn,Hot,None,Honor,Valyrian Steel,Stark
+Blonde,Temperate,Lion,Knowledge,Dagger,Lannister
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Black,Hot,None,Power,Sword,Targaryen
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Justice,Warhammer,Stark
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Cold,Direwolf,Honor,Bow,Stark
+Auburn,Cold,None,Ambition,Bow,Stark
+Blonde,Windy,Dragon,Power,Dagger,Targaryen
+Red,Cold,Direwolf,Wealth,Valyrian Steel,Stark
+Brown,Cold,Dragon,Honor,Sword,Stark
+Brown,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Black,Hot,Stag,Honor,Axe,Baratheon
+Silver,Windy,Dragon,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,Stag,Knowledge,Valyrian Steel,Lannister
+Blonde,Temperate,Cat,Wealth,Valyrian Steel,Lannister
+Red,Temperate,None,Ambition,Dagger,Baratheon
+Brown,Temperate,Lion,Power,Dagger,Lannister
+Auburn,Cold,Direwolf,Honor,Axe,Stark
+Black,Cold,Direwolf,Knowledge,Sword,Stark
+Blonde,Windy,Cat,Knowledge,Axe,Lannister
+Red,Cold,Direwolf,Loyalty,Sword,Stark
+Black,Temperate,Lion,Wealth,Warhammer,Baratheon
+Silver,Temperate,Cat,Loyalty,Warhammer,Targaryen
+Blonde,Temperate,None,Wealth,Warhammer,Lannister
+Blonde,Temperate,None,Power,Dagger,Lannister
+Blonde,Temperate,Raven,Wealth,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Wealth,Bow,Lannister
+Silver,Hot,Dragon,Power,Axe,Targaryen
+Auburn,Cold,Direwolf,Honor,Sword,Stark
+Silver,Temperate,Lion,Power,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Knowledge,Warhammer,Targaryen
+Brown,Humid,None,Knowledge,Bow,Stark
+Black,Cold,Direwolf,Justice,Bow,Stark
+Blonde,Hot,Raven,Power,Axe,Lannister
+Black,Windy,Stag,Power,Dagger,Baratheon
+Black,Humid,Dragon,Power,Sword,Targaryen
+Blonde,Temperate,Raven,Wealth,Valyrian Steel,Lannister
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,None,Power,Warhammer,Baratheon
+Brown,Temperate,Lion,Power,Valyrian Steel,Lannister
+Blonde,Temperate,None,Ambition,Valyrian Steel,Lannister
+Black,Cold,Raven,Honor,Sword,Stark
+Silver,Hot,Dragon,Loyalty,Valyrian Steel,Targaryen
+Blonde,Temperate,Cat,Power,Bow,Lannister
+Black,Cold,Direwolf,Ambition,Dagger,Stark
+Silver,Hot,Dragon,Power,Sword,Targaryen
+Red,Temperate,Dragon,Ambition,Spear,Targaryen
+Brown,Windy,Stag,Ambition,Dagger,Baratheon
+Silver,Temperate,Dragon,Knowledge,Valyrian Steel,Targaryen
+Silver,Temperate,Raven,Knowledge,Valyrian Steel,Targaryen
+Black,Windy,Direwolf,Power,Dagger,Baratheon
+Brown,Cold,Direwolf,Knowledge,Dagger,Stark
+Brown,Windy,Stag,Honor,Sword,Baratheon
+Blonde,Temperate,Raven,Power,Sword,Lannister
+Auburn,Temperate,None,Honor,Valyrian Steel,Stark
+Black,Windy,Direwolf,Loyalty,Sword,Stark
+Auburn,Hot,Stag,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Ambition,Spear,Lannister
+Black,Cold,Stag,Justice,Bow,Stark
+Black,Temperate,Cat,Loyalty,Warhammer,Baratheon
+Black,Windy,Cat,Knowledge,Warhammer,Baratheon
+Red,Temperate,Lion,Wealth,Warhammer,Lannister
+Black,Cold,Direwolf,Wealth,Sword,Stark
+Brown,Cold,Direwolf,Honor,Axe,Stark
+Black,Cold,Raven,Loyalty,Dagger,Stark
+Silver,Hot,Lion,Honor,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Windy,Stag,Justice,Dagger,Baratheon
+Blonde,Hot,None,Wealth,Sword,Lannister
+Black,Windy,Stag,Honor,Warhammer,Baratheon
+Silver,Hot,None,Wealth,Valyrian Steel,Targaryen
+Brown,Humid,Direwolf,Honor,Spear,Stark
+Blonde,Windy,None,Power,Axe,Lannister
+Black,Cold,Stag,Knowledge,Warhammer,Stark
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Auburn,Cold,None,Knowledge,Valyrian Steel,Stark
+Brown,Humid,Direwolf,Honor,Bow,Stark
+Black,Humid,Stag,Honor,Warhammer,Baratheon
+Brown,Humid,Direwolf,Loyalty,Sword,Stark
+Silver,Humid,Dragon,Knowledge,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Honor,Spear,Stark
+Black,Cold,Stag,Honor,Valyrian Steel,Stark
+Black,Windy,Lion,Power,Warhammer,Baratheon
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Brown,Hot,Cat,Wealth,Sword,Lannister
+Black,Windy,Stag,Power,Valyrian Steel,Baratheon
+Brown,Cold,Direwolf,Wealth,Spear,Stark
+Black,Windy,Dragon,Power,Spear,Targaryen
+Black,Windy,Direwolf,Honor,Sword,Stark
+Brown,Hot,Dragon,Power,Sword,Targaryen
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Black,Hot,Stag,Power,Warhammer,Baratheon
+Brown,Humid,Lion,Power,Sword,Lannister
+Black,Cold,None,Honor,Axe,Stark
+Silver,Hot,None,Loyalty,Warhammer,Targaryen
+Blonde,Temperate,Direwolf,Ambition,Axe,Stark
+Black,Cold,Direwolf,Loyalty,Bow,Stark
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Black,Cold,Direwolf,Ambition,Sword,Stark
+Auburn,Humid,Stag,Ambition,Axe,Baratheon
+Blonde,Temperate,Dragon,Knowledge,Valyrian Steel,Targaryen
+Auburn,Cold,Direwolf,Honor,Bow,Stark
+Brown,Temperate,Direwolf,Power,Warhammer,Stark
+Silver,Hot,None,Loyalty,Axe,Targaryen
+Brown,Cold,None,Honor,Dagger,Stark
+Blonde,Hot,Lion,Power,Sword,Lannister
+Black,Cold,Direwolf,Honor,Bow,Stark
+Silver,Temperate,Dragon,Justice,Spear,Targaryen
+Auburn,Windy,Stag,Ambition,Warhammer,Baratheon
+Silver,Hot,Dragon,Knowledge,Valyrian Steel,Targaryen
+Blonde,Temperate,Raven,Ambition,Sword,Lannister
+Blonde,Temperate,Raven,Ambition,Bow,Lannister
+Black,Windy,Dragon,Justice,Dagger,Baratheon
+Brown,Temperate,Dragon,Justice,Dagger,Targaryen
+Blonde,Cold,Direwolf,Honor,Sword,Stark
+Auburn,Windy,Cat,Wealth,Valyrian Steel,Lannister
+Blonde,Humid,None,Loyalty,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Wealth,Dagger,Stark
+Silver,Humid,None,Ambition,Axe,Targaryen
+Black,Cold,Direwolf,Honor,Axe,Stark
+Black,Windy,Cat,Honor,Valyrian Steel,Baratheon
+Silver,Humid,Dragon,Ambition,Sword,Targaryen
+Black,Windy,Stag,Ambition,Warhammer,Baratheon
+Blonde,Temperate,None,Power,Valyrian Steel,Lannister
+Black,Temperate,Stag,Ambition,Bow,Baratheon
+Brown,Temperate,Raven,Wealth,Sword,Lannister
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Black,Cold,Cat,Power,Sword,Baratheon
+Blonde,Humid,Dragon,Power,Bow,Targaryen
+Brown,Windy,Stag,Power,Bow,Baratheon
+Blonde,Temperate,Lion,Ambition,Sword,Lannister
+Black,Humid,Stag,Power,Warhammer,Baratheon
+Blonde,Hot,Raven,Ambition,Bow,Lannister
+Silver,Hot,Dragon,Power,Bow,Targaryen
+Black,Cold,Direwolf,Justice,Dagger,Stark
+Auburn,Humid,Direwolf,Knowledge,Valyrian Steel,Stark
+Auburn,Temperate,Lion,Wealth,Warhammer,Lannister
+Red,Hot,Dragon,Ambition,Warhammer,Baratheon
+Brown,Temperate,Cat,Power,Bow,Stark
+Brown,Humid,Stag,Ambition,Axe,Baratheon
+Brown,Cold,Direwolf,Honor,Spear,Stark
+Black,Temperate,None,Ambition,Bow,Lannister
+Silver,Windy,Dragon,Ambition,Sword,Targaryen
+Red,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Silver,Windy,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Valyrian Steel,Lannister
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Black,Humid,Stag,Power,Axe,Baratheon
+Brown,Cold,Direwolf,Loyalty,Warhammer,Stark
+Blonde,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Blonde,Temperate,None,Power,Axe,Lannister
+Black,Hot,Stag,Power,Axe,Baratheon
+Silver,Hot,Dragon,Power,Warhammer,Targaryen
+Black,Windy,Stag,Wealth,Sword,Baratheon
+Blonde,Temperate,None,Honor,Dagger,Lannister
+Blonde,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Black,Cold,None,Power,Warhammer,Baratheon
+Blonde,Temperate,Cat,Wealth,Dagger,Lannister
+Silver,Temperate,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Humid,Stag,Honor,Warhammer,Targaryen
+Blonde,Temperate,Cat,Ambition,Valyrian Steel,Lannister
+Red,Cold,Stag,Power,Warhammer,Baratheon
+Red,Cold,Cat,Honor,Sword,Stark
+Black,Humid,Direwolf,Ambition,Dagger,Targaryen
+Silver,Hot,Dragon,Wealth,Valyrian Steel,Targaryen
+Brown,Temperate,Lion,Wealth,Sword,Lannister
+Red,Hot,Lion,Power,Valyrian Steel,Lannister
+Black,Temperate,Cat,Justice,Valyrian Steel,Lannister
+Black,Temperate,Raven,Loyalty,Spear,Stark
+Auburn,Temperate,Direwolf,Loyalty,Sword,Stark
+Black,Cold,Direwolf,Honor,Axe,Stark
+Blonde,Cold,Cat,Wealth,Bow,Lannister
+Brown,Windy,Stag,Wealth,Warhammer,Baratheon
+Black,Cold,Raven,Honor,Valyrian Steel,Stark
+Black,Windy,Stag,Ambition,Spear,Baratheon
+Silver,Windy,Dragon,Knowledge,Valyrian Steel,Targaryen
+Black,Temperate,Stag,Justice,Warhammer,Baratheon
+Black,Humid,Stag,Ambition,Sword,Baratheon
+Black,Temperate,Stag,Power,Dagger,Baratheon
+Black,Temperate,Direwolf,Honor,Axe,Stark
+Brown,Temperate,None,Power,Sword,Lannister
+Black,Cold,Stag,Knowledge,Bow,Stark
+Black,Cold,Direwolf,Knowledge,Sword,Stark
+Brown,Hot,Dragon,Justice,Dagger,Targaryen
+Silver,Humid,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Auburn,Temperate,Cat,Wealth,Sword,Lannister
+Black,Cold,Direwolf,Wealth,Valyrian Steel,Stark
+Blonde,Temperate,Lion,Ambition,Dagger,Lannister
+Silver,Hot,Dragon,Power,Sword,Targaryen
+Black,Cold,None,Honor,Sword,Stark
+Brown,Cold,None,Justice,Sword,Stark
+Black,Temperate,Lion,Wealth,Sword,Lannister
+Silver,Temperate,Cat,Loyalty,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Loyalty,Axe,Stark
+Black,Windy,Stag,Justice,Axe,Baratheon
+Red,Temperate,Raven,Justice,Axe,Baratheon
+Blonde,Temperate,Direwolf,Wealth,Bow,Lannister
+Blonde,Hot,Raven,Wealth,Warhammer,Lannister
+Red,Cold,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Temperate,Dragon,Power,Bow,Targaryen
+Black,Humid,None,Wealth,Valyrian Steel,Baratheon
+Black,Temperate,Stag,Power,Axe,Baratheon
+Red,Temperate,Raven,Honor,Warhammer,Lannister
+Black,Temperate,Stag,Ambition,Warhammer,Baratheon
+Blonde,Windy,None,Wealth,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Power,Sword,Lannister
+Brown,Temperate,Cat,Ambition,Sword,Lannister
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Temperate,Raven,Ambition,Warhammer,Lannister
+Blonde,Hot,Lion,Wealth,Sword,Lannister
+Black,Windy,Stag,Power,Warhammer,Baratheon
+Brown,Temperate,Raven,Honor,Valyrian Steel,Stark
+Auburn,Hot,Dragon,Justice,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Wealth,Bow,Lannister
+Black,Windy,Stag,Power,Sword,Baratheon
+Brown,Humid,Direwolf,Power,Axe,Stark
+Brown,Humid,Stag,Ambition,Sword,Baratheon
+Auburn,Hot,Cat,Power,Axe,Lannister
+Blonde,Temperate,Raven,Ambition,Sword,Lannister
+Blonde,Temperate,Lion,Power,Valyrian Steel,Lannister
+Auburn,Windy,Lion,Wealth,Valyrian Steel,Lannister
+Black,Cold,Stag,Justice,Bow,Baratheon
+Brown,Cold,Cat,Wealth,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Honor,Spear,Lannister
+Brown,Hot,Lion,Power,Warhammer,Lannister
+Black,Temperate,Stag,Loyalty,Spear,Baratheon
+Blonde,Hot,Lion,Wealth,Spear,Lannister
+Brown,Cold,Direwolf,Knowledge,Sword,Stark
+Auburn,Cold,Direwolf,Honor,Axe,Stark
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Black,Humid,Stag,Honor,Axe,Baratheon
+Brown,Cold,Direwolf,Honor,Warhammer,Stark
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Black,Cold,Direwolf,Honor,Sword,Stark
+Blonde,Windy,Cat,Power,Dagger,Lannister
+Auburn,Hot,Stag,Power,Dagger,Baratheon
+Silver,Temperate,Raven,Ambition,Spear,Targaryen
+Silver,Humid,None,Knowledge,Valyrian Steel,Targaryen
+Black,Hot,Cat,Power,Axe,Baratheon
+Brown,Humid,Stag,Power,Axe,Baratheon
+Brown,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Blonde,Temperate,Cat,Power,Spear,Lannister
+Blonde,Temperate,Cat,Wealth,Sword,Lannister
+Black,Cold,Direwolf,Honor,Sword,Stark
+Auburn,Temperate,Stag,Power,Dagger,Baratheon
+Brown,Cold,None,Honor,Warhammer,Stark
+Silver,Hot,Dragon,Power,Spear,Targaryen
+Silver,Windy,Dragon,Justice,Axe,Targaryen
+Silver,Temperate,None,Power,Valyrian Steel,Targaryen
+Silver,Hot,Raven,Power,Valyrian Steel,Targaryen
+Black,Temperate,Cat,Power,Spear,Baratheon
+Brown,Cold,Direwolf,Loyalty,Sword,Stark
+Red,Temperate,None,Wealth,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Ambition,Bow,Stark
+Silver,Hot,Dragon,Loyalty,Dagger,Targaryen
+Red,Cold,Direwolf,Ambition,Bow,Stark
+Silver,Hot,Dragon,Power,Warhammer,Targaryen
+Silver,Windy,Dragon,Knowledge,Valyrian Steel,Targaryen
+Black,Windy,None,Power,Warhammer,Baratheon
+Brown,Humid,Direwolf,Wealth,Sword,Stark
+Black,Cold,Cat,Knowledge,Sword,Baratheon
+Black,Cold,Direwolf,Power,Warhammer,Stark
+Blonde,Cold,Cat,Power,Warhammer,Baratheon
+Silver,Windy,Dragon,Ambition,Sword,Targaryen
+Black,Cold,Stag,Power,Bow,Baratheon
+Silver,Cold,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,Stag,Power,Warhammer,Baratheon
+Red,Cold,None,Loyalty,Dagger,Stark
+Silver,Humid,Dragon,Knowledge,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Temperate,Cat,Power,Sword,Lannister
+Silver,Temperate,Dragon,Loyalty,Bow,Targaryen
+Red,Cold,Direwolf,Honor,Spear,Stark
+Silver,Temperate,None,Power,Dagger,Targaryen
+Blonde,Hot,None,Wealth,Valyrian Steel,Lannister
+Auburn,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Loyalty,Valyrian Steel,Stark
+Brown,Hot,Dragon,Knowledge,Sword,Targaryen
+Silver,Hot,Raven,Loyalty,Sword,Targaryen
+Brown,Cold,Direwolf,Wealth,Axe,Stark
+Silver,Temperate,Lion,Loyalty,Warhammer,Lannister
+Silver,Cold,Cat,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Stag,Power,Dagger,Baratheon
+Blonde,Temperate,None,Wealth,Valyrian Steel,Lannister
+Black,Windy,Stag,Loyalty,Axe,Baratheon
+Blonde,Temperate,Cat,Wealth,Axe,Lannister
+Black,Cold,Direwolf,Honor,Warhammer,Stark
+Brown,Cold,None,Power,Bow,Stark
+Blonde,Temperate,Lion,Justice,Dagger,Lannister
+Blonde,Temperate,None,Wealth,Valyrian Steel,Lannister
+Auburn,Temperate,Direwolf,Honor,Bow,Stark
+Black,Humid,Direwolf,Power,Warhammer,Baratheon
+Black,Windy,Stag,Honor,Axe,Baratheon
+Red,Humid,Dragon,Power,Axe,Targaryen
+Auburn,Windy,Stag,Knowledge,Dagger,Baratheon
+Brown,Cold,Direwolf,Justice,Dagger,Stark
+Blonde,Temperate,None,Ambition,Valyrian Steel,Lannister
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Warhammer,Lannister
+Blonde,Temperate,Raven,Power,Valyrian Steel,Lannister
+Blonde,Humid,Lion,Power,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Brown,Windy,Direwolf,Knowledge,Axe,Stark
+Blonde,Temperate,None,Ambition,Valyrian Steel,Lannister
+Black,Windy,None,Power,Valyrian Steel,Baratheon
+Blonde,Hot,None,Wealth,Valyrian Steel,Lannister
+Blonde,Hot,Cat,Power,Axe,Lannister
+Blonde,Temperate,Lion,Justice,Dagger,Lannister
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,Stag,Wealth,Sword,Lannister
+Blonde,Windy,Stag,Justice,Warhammer,Baratheon
+Silver,Windy,None,Ambition,Bow,Targaryen
+Black,Cold,Raven,Honor,Sword,Stark
+Black,Cold,Cat,Knowledge,Sword,Stark
+Blonde,Temperate,Raven,Knowledge,Valyrian Steel,Lannister
+Black,Windy,Raven,Justice,Sword,Targaryen
+Brown,Windy,Lion,Ambition,Valyrian Steel,Baratheon
+Silver,Windy,Dragon,Loyalty,Valyrian Steel,Targaryen
+Black,Humid,Cat,Ambition,Warhammer,Baratheon
+Red,Cold,Stag,Honor,Axe,Baratheon
+Auburn,Hot,Lion,Wealth,Warhammer,Lannister
+Blonde,Hot,None,Wealth,Valyrian Steel,Lannister
+Silver,Temperate,Lion,Ambition,Dagger,Lannister
+Silver,Cold,Dragon,Knowledge,Valyrian Steel,Targaryen
+Blonde,Temperate,Raven,Power,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Wealth,Warhammer,Lannister
+Black,Temperate,Direwolf,Honor,Sword,Stark
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Temperate,Stag,Wealth,Axe,Baratheon
+Blonde,Temperate,Lion,Knowledge,Axe,Lannister
+Blonde,Cold,Lion,Wealth,Valyrian Steel,Lannister
+Silver,Humid,Raven,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,Cat,Power,Dagger,Lannister
+Red,Windy,Raven,Justice,Sword,Baratheon
+Brown,Hot,Direwolf,Loyalty,Sword,Stark
+Brown,Cold,Direwolf,Honor,Bow,Stark
+Silver,Hot,Dragon,Ambition,Dagger,Targaryen
+Silver,Hot,None,Ambition,Warhammer,Targaryen
+Red,Temperate,Direwolf,Honor,Warhammer,Stark
+Silver,Hot,Cat,Power,Axe,Targaryen
+Red,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Brown,Cold,None,Ambition,Warhammer,Baratheon
+Brown,Temperate,Dragon,Justice,Axe,Targaryen
+Brown,Temperate,Direwolf,Ambition,Spear,Stark
+Brown,Temperate,Lion,Wealth,Dagger,Lannister
+Brown,Hot,Cat,Ambition,Sword,Lannister
+Auburn,Cold,Direwolf,Loyalty,Bow,Stark
+Black,Cold,Stag,Loyalty,Axe,Baratheon
+Brown,Humid,Lion,Power,Dagger,Lannister
+Red,Temperate,Cat,Power,Sword,Baratheon
+Blonde,Cold,Direwolf,Loyalty,Bow,Stark
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Loyalty,Sword,Stark
+Blonde,Temperate,Lion,Power,Dagger,Lannister
+Black,Windy,Stag,Justice,Warhammer,Baratheon
+Brown,Temperate,None,Ambition,Sword,Lannister
+Silver,Hot,Dragon,Ambition,Axe,Targaryen
+Brown,Cold,Direwolf,Honor,Bow,Stark
+Blonde,Windy,Raven,Wealth,Bow,Lannister
+Blonde,Temperate,Lion,Ambition,Bow,Lannister
+Brown,Temperate,Lion,Knowledge,Sword,Lannister
+Silver,Humid,None,Justice,Valyrian Steel,Targaryen
+Blonde,Temperate,Raven,Ambition,Sword,Lannister
+Brown,Windy,None,Power,Sword,Baratheon
+Black,Cold,Cat,Justice,Axe,Stark
+Black,Cold,Direwolf,Power,Sword,Stark
+Blonde,Temperate,Stag,Power,Dagger,Lannister
+Black,Humid,Cat,Loyalty,Valyrian Steel,Baratheon
+Blonde,Temperate,Cat,Wealth,Sword,Lannister
+Blonde,Temperate,Raven,Power,Sword,Lannister
+Silver,Temperate,Lion,Wealth,Warhammer,Lannister
+Brown,Cold,Stag,Justice,Sword,Baratheon
+Red,Cold,None,Power,Warhammer,Baratheon
+Blonde,Temperate,None,Honor,Warhammer,Lannister
+Black,Cold,Direwolf,Honor,Sword,Stark
+Black,Cold,None,Honor,Valyrian Steel,Stark
+Silver,Humid,None,Power,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Power,Valyrian Steel,Lannister
+Blonde,Temperate,Lion,Wealth,Axe,Lannister
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Black,Windy,Cat,Honor,Bow,Stark
+Brown,Temperate,Lion,Loyalty,Spear,Lannister
+Black,Cold,Direwolf,Honor,Bow,Stark
+Brown,Cold,Direwolf,Loyalty,Dagger,Stark
+Black,Temperate,Cat,Ambition,Axe,Baratheon
+Black,Windy,None,Ambition,Valyrian Steel,Baratheon
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Spear,Lannister
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Black,Humid,Direwolf,Knowledge,Dagger,Baratheon
+Blonde,Temperate,Raven,Ambition,Dagger,Lannister
+Silver,Hot,Dragon,Power,Axe,Targaryen
+Blonde,Humid,Lion,Power,Valyrian Steel,Lannister
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,Cat,Wealth,Spear,Stark
+Blonde,Temperate,Cat,Ambition,Sword,Lannister
+Blonde,Temperate,Dragon,Wealth,Valyrian Steel,Lannister
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Black,Hot,Raven,Power,Warhammer,Baratheon
+Brown,Cold,Cat,Loyalty,Sword,Stark
+Silver,Hot,Dragon,Honor,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Wealth,Bow,Lannister
+Blonde,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Silver,Humid,Raven,Power,Valyrian Steel,Targaryen
+Black,Temperate,Stag,Wealth,Warhammer,Baratheon
+Brown,Hot,Cat,Knowledge,Sword,Lannister
+Blonde,Cold,Dragon,Ambition,Valyrian Steel,Lannister
+Brown,Temperate,Direwolf,Honor,Valyrian Steel,Stark
+Blonde,Temperate,None,Wealth,Bow,Lannister
+Red,Cold,Direwolf,Justice,Sword,Stark
+Red,Windy,Stag,Loyalty,Warhammer,Baratheon
+Black,Windy,Stag,Wealth,Spear,Baratheon
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Power,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Honor,Axe,Stark
+Black,Cold,Direwolf,Justice,Spear,Stark
+Auburn,Hot,Lion,Wealth,Warhammer,Lannister
+Silver,Humid,Dragon,Justice,Valyrian Steel,Targaryen
+Auburn,Cold,Cat,Justice,Spear,Stark
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Silver,Hot,Raven,Knowledge,Valyrian Steel,Targaryen
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Black,Humid,Direwolf,Loyalty,Warhammer,Stark
+Red,Temperate,Cat,Wealth,Spear,Baratheon
+Black,Windy,Stag,Loyalty,Valyrian Steel,Baratheon
+Brown,Humid,Direwolf,Honor,Axe,Stark
+Blonde,Hot,Cat,Ambition,Valyrian Steel,Lannister
+Black,Hot,Dragon,Justice,Bow,Targaryen
+Blonde,Temperate,Lion,Power,Sword,Lannister
+Black,Temperate,Direwolf,Wealth,Axe,Stark
+Auburn,Temperate,Raven,Ambition,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Loyalty,Dagger,Stark
+Silver,Humid,Stag,Ambition,Sword,Targaryen
+Black,Cold,Direwolf,Justice,Bow,Stark
+Black,Temperate,Direwolf,Power,Warhammer,Baratheon
+Brown,Cold,None,Honor,Sword,Stark
+Black,Cold,None,Knowledge,Axe,Stark
+Blonde,Temperate,None,Ambition,Valyrian Steel,Lannister
+Black,Temperate,Direwolf,Power,Sword,Baratheon
+Blonde,Hot,None,Ambition,Sword,Lannister
+Brown,Cold,Direwolf,Honor,Sword,Stark
+Blonde,Temperate,Raven,Wealth,Bow,Lannister
+Black,Temperate,Stag,Loyalty,Sword,Stark
+Silver,Hot,Dragon,Knowledge,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Wealth,Valyrian Steel,Targaryen
+Black,Humid,Stag,Knowledge,Warhammer,Baratheon
+Silver,Hot,Stag,Power,Warhammer,Baratheon
+Black,Hot,Stag,Honor,Warhammer,Baratheon
+Blonde,Temperate,None,Wealth,Valyrian Steel,Lannister
+Red,Hot,Stag,Power,Axe,Baratheon
+Brown,Cold,None,Honor,Spear,Stark
+Silver,Humid,Raven,Justice,Dagger,Targaryen
+Black,Cold,Lion,Wealth,Bow,Lannister
+Black,Humid,Direwolf,Loyalty,Sword,Stark
+Auburn,Windy,Stag,Honor,Valyrian Steel,Baratheon
+Auburn,Windy,Stag,Justice,Axe,Baratheon
+Silver,Windy,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Hot,Direwolf,Ambition,Valyrian Steel,Targaryen
+Black,Windy,Stag,Loyalty,Dagger,Baratheon
+Brown,Temperate,Lion,Wealth,Sword,Lannister
+Silver,Temperate,Lion,Ambition,Valyrian Steel,Targaryen
+Auburn,Humid,None,Power,Bow,Lannister
+Black,Temperate,Stag,Honor,Valyrian Steel,Baratheon
+Silver,Humid,Dragon,Honor,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Power,Bow,Targaryen
+Brown,Hot,Lion,Power,Valyrian Steel,Lannister
+Black,Windy,Direwolf,Justice,Bow,Stark
+Silver,Hot,Dragon,Power,Bow,Targaryen
+Black,Cold,Direwolf,Honor,Sword,Stark
+Brown,Cold,Stag,Honor,Sword,Stark
+Brown,Cold,Raven,Knowledge,Warhammer,Baratheon
+Silver,Windy,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Knowledge,Axe,Stark
+Blonde,Humid,Direwolf,Loyalty,Dagger,Stark
+Silver,Humid,Dragon,Justice,Spear,Targaryen
+Blonde,Hot,Lion,Wealth,Bow,Lannister
+Auburn,Windy,Stag,Knowledge,Axe,Baratheon
+Black,Humid,Stag,Knowledge,Dagger,Baratheon
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Silver,Humid,Raven,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,Stag,Ambition,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Auburn,Cold,Stag,Honor,Sword,Stark
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Silver,Cold,Dragon,Justice,Dagger,Targaryen
+Brown,Humid,Cat,Loyalty,Bow,Stark
+Blonde,Temperate,Raven,Justice,Bow,Lannister
+Brown,Cold,Cat,Honor,Sword,Stark
+Blonde,Hot,Stag,Ambition,Warhammer,Lannister
+Silver,Humid,Dragon,Knowledge,Axe,Targaryen
+Blonde,Temperate,None,Wealth,Valyrian Steel,Lannister
+Black,Windy,Stag,Honor,Spear,Baratheon
+Black,Windy,Stag,Justice,Sword,Baratheon
+Silver,Humid,None,Ambition,Sword,Targaryen
+Blonde,Temperate,Lion,Wealth,Dagger,Lannister
+Black,Windy,Stag,Loyalty,Warhammer,Baratheon
+Blonde,Temperate,Lion,Ambition,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Black,Temperate,Raven,Power,Valyrian Steel,Lannister
+Black,Cold,Raven,Justice,Warhammer,Baratheon
+Red,Cold,Lion,Justice,Sword,Stark
+Black,Windy,Stag,Justice,Sword,Baratheon
+Silver,Hot,Dragon,Ambition,Axe,Targaryen
+Silver,Windy,Dragon,Power,Spear,Targaryen
+Blonde,Temperate,None,Knowledge,Dagger,Lannister
+Brown,Cold,Cat,Honor,Bow,Stark
+Brown,Temperate,Cat,Wealth,Valyrian Steel,Lannister
+Black,Humid,None,Loyalty,Dagger,Baratheon
+Silver,Temperate,None,Power,Sword,Targaryen
+Silver,Temperate,Dragon,Justice,Valyrian Steel,Targaryen
+Auburn,Cold,Stag,Ambition,Axe,Baratheon
+Silver,Hot,None,Knowledge,Valyrian Steel,Targaryen
+Black,Temperate,Stag,Ambition,Warhammer,Baratheon
+Silver,Hot,None,Justice,Axe,Targaryen
+Red,Humid,None,Justice,Axe,Stark
+Silver,Temperate,Raven,Knowledge,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Black,Temperate,Stag,Loyalty,Bow,Baratheon
+Silver,Hot,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Humid,None,Power,Valyrian Steel,Targaryen
+Auburn,Cold,Direwolf,Loyalty,Axe,Stark
+Black,Temperate,Stag,Power,Axe,Baratheon
+Silver,Humid,None,Power,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Knowledge,Valyrian Steel,Lannister
+Red,Windy,Stag,Power,Axe,Baratheon
+Brown,Cold,Direwolf,Justice,Valyrian Steel,Stark
+Black,Cold,Direwolf,Loyalty,Axe,Stark
+Brown,Humid,Dragon,Ambition,Warhammer,Targaryen
+Blonde,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Silver,Cold,None,Honor,Valyrian Steel,Targaryen
+Silver,Hot,Direwolf,Power,Sword,Targaryen
+Silver,Hot,Dragon,Power,Sword,Targaryen
+Black,Temperate,Direwolf,Loyalty,Bow,Stark
+Blonde,Hot,Lion,Wealth,Dagger,Lannister
+Blonde,Temperate,Stag,Power,Dagger,Lannister
+Silver,Hot,Stag,Justice,Warhammer,Targaryen
+Brown,Temperate,Lion,Ambition,Sword,Lannister
+Silver,Windy,Dragon,Loyalty,Warhammer,Targaryen
+Blonde,Temperate,Stag,Wealth,Warhammer,Lannister
+Silver,Windy,Dragon,Justice,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Power,Warhammer,Lannister
+Silver,Temperate,None,Power,Valyrian Steel,Targaryen
+Red,Cold,Direwolf,Honor,Dagger,Stark
+Black,Windy,Stag,Loyalty,Warhammer,Baratheon
+Blonde,Humid,None,Justice,Valyrian Steel,Lannister
+Auburn,Cold,None,Power,Axe,Stark
+Blonde,Temperate,None,Ambition,Sword,Lannister
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,Stag,Wealth,Sword,Lannister
+Auburn,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Brown,Hot,Raven,Power,Dagger,Targaryen
+Blonde,Humid,None,Wealth,Sword,Lannister
+Blonde,Temperate,None,Justice,Warhammer,Lannister
+Black,Temperate,Stag,Loyalty,Warhammer,Baratheon
+Black,Cold,None,Wealth,Dagger,Stark
+Silver,Hot,None,Knowledge,Valyrian Steel,Targaryen
+Black,Humid,Raven,Justice,Spear,Stark
+Auburn,Windy,Stag,Power,Valyrian Steel,Baratheon
+Blonde,Temperate,Cat,Power,Sword,Lannister
+Black,Windy,Stag,Honor,Axe,Baratheon
+Silver,Windy,Dragon,Power,Bow,Targaryen
+Brown,Humid,Direwolf,Honor,Bow,Stark
+Red,Temperate,Raven,Wealth,Bow,Lannister
+Blonde,Hot,Lion,Knowledge,Sword,Lannister
+Black,Windy,Raven,Justice,Dagger,Baratheon
+Silver,Temperate,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Loyalty,Sword,Stark
+Silver,Windy,Raven,Justice,Sword,Targaryen
+Blonde,Cold,Lion,Power,Bow,Lannister
+Auburn,Temperate,Lion,Wealth,Dagger,Lannister
+Brown,Cold,Raven,Loyalty,Axe,Stark
+Blonde,Hot,Stag,Wealth,Sword,Lannister
+Brown,Cold,Direwolf,Wealth,Axe,Stark
+Auburn,Humid,Direwolf,Power,Warhammer,Baratheon
+Silver,Temperate,Lion,Power,Valyrian Steel,Targaryen
+Blonde,Cold,Lion,Knowledge,Bow,Lannister
+Silver,Hot,Dragon,Knowledge,Valyrian Steel,Targaryen
+Blonde,Temperate,Lion,Wealth,Sword,Lannister
+Brown,Hot,Lion,Justice,Dagger,Lannister
+Brown,Windy,Lion,Power,Sword,Baratheon
+Silver,Humid,Dragon,Ambition,Sword,Targaryen
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Brown,Temperate,None,Justice,Sword,Lannister
+Blonde,Hot,Cat,Power,Valyrian Steel,Lannister
+Auburn,Cold,Direwolf,Justice,Dagger,Stark
+Black,Cold,Direwolf,Justice,Sword,Stark
+Silver,Cold,None,Ambition,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Power,Valyrian Steel,Stark
+Auburn,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Temperate,None,Loyalty,Warhammer,Baratheon
+Black,Humid,Stag,Loyalty,Warhammer,Baratheon
+Blonde,Hot,Lion,Ambition,Warhammer,Lannister
+Black,Temperate,Stag,Honor,Valyrian Steel,Baratheon
+Brown,Cold,Direwolf,Honor,Axe,Stark
+Silver,Windy,Dragon,Knowledge,Valyrian Steel,Targaryen
+Red,Cold,Direwolf,Honor,Axe,Stark
+Blonde,Temperate,Lion,Ambition,Sword,Lannister
+Black,Windy,Stag,Loyalty,Bow,Baratheon
+Black,Cold,Direwolf,Knowledge,Axe,Stark
+Silver,Humid,Dragon,Knowledge,Warhammer,Targaryen
+Black,Cold,Stag,Power,Warhammer,Baratheon
+Black,Temperate,Stag,Loyalty,Axe,Baratheon
+Silver,Hot,Dragon,Ambition,Axe,Targaryen
+Black,Windy,None,Justice,Axe,Baratheon
+Brown,Cold,Direwolf,Justice,Sword,Stark
+Black,Cold,Direwolf,Honor,Bow,Stark
+Blonde,Temperate,None,Wealth,Valyrian Steel,Lannister
+Brown,Cold,Direwolf,Ambition,Valyrian Steel,Stark
+Blonde,Temperate,None,Wealth,Dagger,Lannister
+Blonde,Hot,Lion,Wealth,Dagger,Lannister
+Silver,Hot,None,Power,Valyrian Steel,Targaryen
+Silver,Windy,Raven,Knowledge,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Power,Axe,Targaryen
+Black,Humid,Direwolf,Loyalty,Axe,Stark
+Black,Windy,Stag,Justice,Warhammer,Baratheon
+Brown,Cold,Direwolf,Knowledge,Bow,Stark
+Red,Cold,None,Loyalty,Bow,Stark
+Blonde,Windy,Lion,Ambition,Valyrian Steel,Lannister
+Auburn,Hot,None,Ambition,Sword,Targaryen
+Black,Humid,Stag,Wealth,Dagger,Baratheon
+Black,Temperate,Direwolf,Power,Warhammer,Baratheon
+Auburn,Humid,Dragon,Justice,Valyrian Steel,Targaryen
+Silver,Windy,Cat,Power,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Honor,Sword,Stark
+Silver,Windy,Dragon,Loyalty,Valyrian Steel,Targaryen
+Brown,Temperate,Direwolf,Ambition,Warhammer,Stark
+Black,Cold,Direwolf,Power,Axe,Stark
+Auburn,Cold,Direwolf,Honor,Axe,Stark
+Blonde,Temperate,None,Justice,Axe,Lannister
+Blonde,Hot,Lion,Ambition,Dagger,Lannister
+Blonde,Windy,None,Wealth,Axe,Lannister
+Blonde,Hot,None,Loyalty,Valyrian Steel,Lannister
+Auburn,Temperate,Direwolf,Loyalty,Sword,Stark
+Silver,Hot,Lion,Ambition,Axe,Targaryen
+Black,Cold,None,Justice,Axe,Stark
+Silver,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Brown,Temperate,Direwolf,Wealth,Valyrian Steel,Stark
+Silver,Hot,Stag,Loyalty,Bow,Targaryen
+Auburn,Temperate,None,Loyalty,Valyrian Steel,Lannister
+Brown,Cold,Direwolf,Power,Bow,Stark
+Auburn,Cold,Stag,Power,Spear,Baratheon
+Black,Windy,Stag,Ambition,Warhammer,Baratheon
+Black,Temperate,Stag,Honor,Axe,Stark
+Black,Cold,Direwolf,Ambition,Dagger,Stark
+Brown,Windy,Stag,Loyalty,Valyrian Steel,Baratheon
+Blonde,Humid,None,Ambition,Valyrian Steel,Targaryen
+Red,Temperate,Stag,Power,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Power,Spear,Targaryen
+Black,Humid,None,Power,Axe,Baratheon
+Silver,Windy,None,Ambition,Axe,Targaryen
+Black,Cold,Lion,Loyalty,Sword,Stark
+Black,Humid,Stag,Power,Spear,Baratheon
+Black,Temperate,None,Honor,Bow,Stark
+Auburn,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Brown,Cold,Direwolf,Knowledge,Valyrian Steel,Stark
+Blonde,Temperate,None,Wealth,Dagger,Lannister
+Brown,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Humid,None,Power,Valyrian Steel,Targaryen
+Black,Humid,Direwolf,Honor,Bow,Stark
+Silver,Humid,None,Ambition,Axe,Targaryen
+Black,Temperate,Lion,Loyalty,Sword,Baratheon
+Black,Cold,Direwolf,Loyalty,Dagger,Stark
+Black,Windy,Direwolf,Ambition,Sword,Stark
+Black,Humid,Cat,Loyalty,Axe,Baratheon
+Silver,Cold,Direwolf,Knowledge,Sword,Targaryen
+Silver,Hot,Dragon,Knowledge,Sword,Targaryen
+Black,Windy,Direwolf,Loyalty,Sword,Stark
+Brown,Cold,None,Justice,Dagger,Stark
+Silver,Hot,None,Ambition,Valyrian Steel,Targaryen
+Black,Windy,Direwolf,Wealth,Sword,Stark
+Black,Windy,Stag,Justice,Warhammer,Baratheon
+Brown,Cold,Direwolf,Ambition,Bow,Stark
+Blonde,Temperate,None,Wealth,Valyrian Steel,Lannister
+Black,Temperate,None,Power,Sword,Baratheon
+Brown,Temperate,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Humid,Dragon,Ambition,Dagger,Targaryen
+Brown,Cold,None,Honor,Valyrian Steel,Stark
+Black,Windy,Stag,Justice,Dagger,Baratheon
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Silver,Hot,Dragon,Wealth,Valyrian Steel,Targaryen
+Black,Cold,Stag,Ambition,Warhammer,Baratheon
+Silver,Humid,Cat,Power,Valyrian Steel,Targaryen
+Blonde,Humid,Direwolf,Ambition,Axe,Stark
+Brown,Cold,Direwolf,Honor,Bow,Stark
+Black,Cold,Direwolf,Justice,Bow,Stark
+Silver,Humid,Dragon,Justice,Valyrian Steel,Targaryen
+Black,Temperate,Stag,Honor,Dagger,Baratheon
+Brown,Windy,Direwolf,Loyalty,Axe,Stark
+Auburn,Hot,None,Wealth,Dagger,Lannister
+Black,Cold,Raven,Justice,Bow,Stark
+Auburn,Cold,Direwolf,Honor,Bow,Stark
+Black,Humid,Stag,Justice,Warhammer,Baratheon
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Brown,Cold,Raven,Honor,Sword,Stark
+Black,Windy,Stag,Loyalty,Warhammer,Baratheon
+Brown,Temperate,Lion,Power,Dagger,Lannister
+Black,Cold,Direwolf,Loyalty,Axe,Stark
+Black,Humid,Raven,Loyalty,Dagger,Baratheon
+Black,Cold,None,Honor,Valyrian Steel,Stark
+Silver,Hot,None,Justice,Bow,Targaryen
+Blonde,Cold,Cat,Ambition,Spear,Lannister
+Silver,Hot,Dragon,Ambition,Valyrian Steel,Targaryen
+Black,Hot,Dragon,Loyalty,Valyrian Steel,Targaryen
+Auburn,Cold,Direwolf,Justice,Sword,Stark
+Black,Hot,None,Justice,Dagger,Baratheon
+Silver,Humid,Dragon,Ambition,Valyrian Steel,Targaryen
+Blonde,Temperate,None,Power,Valyrian Steel,Lannister
+Brown,Temperate,Direwolf,Knowledge,Axe,Stark
+Auburn,Temperate,Raven,Power,Axe,Baratheon
+Black,Windy,Stag,Honor,Dagger,Baratheon
+Brown,Cold,Direwolf,Honor,Bow,Stark
+Silver,Humid,None,Ambition,Valyrian Steel,Targaryen
+Black,Humid,Lion,Loyalty,Spear,Stark
+Blonde,Hot,Raven,Power,Valyrian Steel,Lannister
+Blonde,Hot,None,Power,Sword,Lannister
+Brown,Cold,Raven,Justice,Warhammer,Stark
+Brown,Temperate,Lion,Honor,Spear,Lannister
+Black,Temperate,None,Honor,Warhammer,Baratheon
+Black,Humid,Lion,Power,Bow,Lannister
+Black,Cold,Direwolf,Loyalty,Axe,Stark
+Blonde,Humid,None,Knowledge,Valyrian Steel,Lannister
+Blonde,Temperate,Cat,Power,Spear,Lannister
+Auburn,Humid,Cat,Power,Sword,Baratheon
+Blonde,Cold,None,Wealth,Warhammer,Lannister
+Black,Humid,Direwolf,Justice,Valyrian Steel,Stark
+Blonde,Hot,None,Power,Valyrian Steel,Lannister
+Silver,Hot,None,Ambition,Sword,Targaryen
+Blonde,Temperate,None,Honor,Sword,Lannister
+Blonde,Temperate,Lion,Wealth,Bow,Lannister
+Blonde,Humid,Stag,Wealth,Valyrian Steel,Lannister
+Blonde,Temperate,Cat,Ambition,Valyrian Steel,Lannister
+Black,Cold,None,Justice,Sword,Stark
+Brown,Cold,Direwolf,Honor,Axe,Stark
+Red,Hot,Stag,Justice,Sword,Baratheon
+Silver,Hot,Dragon,Wealth,Valyrian Steel,Targaryen
+Black,Cold,None,Power,Axe,Stark
+Silver,Temperate,Raven,Power,Sword,Targaryen
+Silver,Hot,Dragon,Knowledge,Valyrian Steel,Targaryen
+Silver,Humid,Dragon,Power,Warhammer,Targaryen
+Red,Hot,Lion,Honor,Sword,Lannister
+Black,Cold,Raven,Loyalty,Sword,Stark
+Blonde,Hot,None,Ambition,Dagger,Lannister
+Silver,Hot,Dragon,Power,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Honor,Sword,Stark
+Black,Windy,Direwolf,Honor,Axe,Stark
+Brown,Temperate,Stag,Ambition,Warhammer,Baratheon
+Auburn,Humid,Dragon,Power,Valyrian Steel,Targaryen
+Black,Windy,Stag,Knowledge,Warhammer,Baratheon
+Silver,Cold,Direwolf,Honor,Bow,Stark
+Red,Windy,Lion,Knowledge,Sword,Lannister
+Black,Windy,None,Honor,Sword,Stark
+Brown,Cold,Direwolf,Loyalty,Bow,Stark
+Brown,Humid,Raven,Ambition,Axe,Baratheon
+Auburn,Temperate,Lion,Wealth,Valyrian Steel,Lannister
+Auburn,Hot,Dragon,Loyalty,Valyrian Steel,Targaryen
+Black,Cold,Direwolf,Justice,Spear,Stark
+Black,Windy,Raven,Power,Valyrian Steel,Baratheon
+Auburn,Hot,None,Power,Sword,Lannister
+Blonde,Hot,None,Ambition,Sword,Lannister
+Red,Windy,Stag,Honor,Sword,Baratheon
+Silver,Windy,Dragon,Power,Valyrian Steel,Targaryen
+Red,Windy,Stag,Loyalty,Warhammer,Baratheon
+Blonde,Temperate,Direwolf,Knowledge,Sword,Lannister
+Black,Cold,Direwolf,Loyalty,Sword,Stark
+Brown,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Silver,Temperate,None,Ambition,Warhammer,Targaryen
+Silver,Humid,Dragon,Power,Sword,Targaryen
+Blonde,Temperate,None,Justice,Valyrian Steel,Baratheon
+Red,Temperate,Raven,Ambition,Bow,Baratheon
+Red,Cold,None,Honor,Sword,Stark
+Blonde,Temperate,Cat,Wealth,Sword,Lannister
+Blonde,Hot,Lion,Wealth,Dagger,Lannister
+Black,Cold,Raven,Justice,Warhammer,Stark
+Blonde,Temperate,Raven,Justice,Sword,Lannister
+Brown,Temperate,Raven,Loyalty,Valyrian Steel,Stark
+Auburn,Windy,None,Wealth,Sword,Lannister
+Blonde,Hot,Lion,Wealth,Valyrian Steel,Lannister
+Black,Cold,Direwolf,Honor,Valyrian Steel,Stark
+Auburn,Temperate,Lion,Wealth,Sword,Lannister
+Blonde,Temperate,Cat,Wealth,Sword,Lannister
+Auburn,Temperate,Dragon,Justice,Sword,Targaryen
+Black,Windy,Stag,Justice,Axe,Baratheon

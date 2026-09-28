@@ -1,0 +1,65 @@
+\question{}
+
+\begin{ابجد}
+\item در مسائل رگرسیون لجستیک (\lr{Logistic Regression})، استفاده از تابع زیان \lr{Binary Cross Entropy (BCE)} نسبت به تابع خطای مربعات (\lr{SSE}) ترجیح داده می‌شود. تابع هزینه \lr{SSE} به صورت $J_{SSE} = \sum_{i=1}^{n} (y^{(i)} - \sigma(w^Tx^{(i)}))^2$ تعریف می‌شود که گرادیان آن نسبت به بردار وزن برابر است با:
+\begin{align*}
+    \nabla_w J_{SSE} = 2 \sum_{i=1}^{n} (\sigma(w^Tx^{(i)}) - y^{(i)}) \cdot \sigma(w^Tx^{(i)})(1 - \sigma(w^Tx^{(i)})) x^{(i)}
+\end{align*}
+در حالی که همان‌طور که در بخش (ب) محاسبه شده است، گرادیان تابع \lr{BCE} ترم مشتق سیگموئید را ندارد و ساده‌تر است: $\nabla_w J_{BCE} = \sum_{i=1}^{n} (\sigma(w^Tx^{(i)}) - y^{(i)}) x^{(i)}$.
+
+این تفاوت ساختاری دو مزیت مهم برای \lr{BCE} ایجاد می‌کند. اول اینکه تابع \lr{BCE} یک تابع محدب (\lr{convex}) است؛ بنابراین تضمین می‌شود که تنها یک \lr{global minimum} وجود دارد و الگوریتم \lr{Gradient Descent} قطعاً به آن همگرا می‌شود، در حالی که ترکیب \lr{SSE} با تابع فعال‌ساز \lr{sigmoid} تابعی غیرمحدب ایجاد می‌کند که ممکن است در \lr{local minima} گیر بیفتد. دوم اینکه فرآیند یادگیری در \lr{BCE} دچار اشباع گرادیان (\lr{Gradient Saturation}) نمی‌شود. به عنوان مثال، فرض کنید برای یک داده برچسب واقعی $y^{(i)} = 1$ باشد ولی مدل به اشتباه پیش‌بینی بسیار ضعیف نزدیک به صفر ($\sigma(w^Tx^{(i)}) \to 0$) ارائه دهد. در این حالت، در تابع \lr{SSE} ترم $\sigma(w^Tx^{(i)})(1 - \sigma(w^Tx^{(i)}))$ به سمت صفر میل کرده و گرادیان را عملاً صفر می‌کند که باعث توقف یادگیری می‌شود؛ اما در تابع \lr{BCE} این ترم خنثی شده و به دلیل ماهیت لگاریتمی، مدل جریمه بسیار سنگینی دریافت می‌کند تا وزن‌ها را سریع‌تر اصلاح کند.
+
+\item اگر $z^{(i)} = w^Tx^{(i)}$ و $\hat{y}^{(i)} = \sigma (z^{(i)})$ باشد، طبق قاعده‌ی زنجیره‌ای می‌توانیم مشتق گرادیان را حساب کنیم:
+\begin{align*}
+    \frac{\partial J}{\partial w} = \sum_{i=1}^{n} \frac{\partial J}{\partial \hat{y}^{(i)}} \frac{\partial \hat{y}^{(i)}}{\partial {z}^{(i)}} \frac{\partial {z}^{(i)}}{\partial w}
+\end{align*}
+هر مشتق را جداگانه محاسبه می‌کنیم:
+\begin{align*}
+                & J(w) = -y^{(i)}\log(\hat{y}^{(i)}) - (1 - y^{(i)})\log(1 - \hat{y}^{(i)})                                                                                                               \\
+    \Rightarrow & \frac{\partial J}{\partial \hat{y}^{(i)}} = \frac{-{y}^{(i)}}{\hat{y}^{(i)}} + \frac{1-{y}^{(i)}}{1-\hat{y}^{(i)}} = \frac{\hat{y}^{(i)} - {y}^{(i)}}{\hat{y}^{(i)}(1 - \hat{y}^{(i)})}
+\end{align*}
+\begin{align*}
+                & \hat{y}^{(i)} = \sigma (z^{(i)})                                                                                                                    \\
+    \Rightarrow & \frac{\partial \hat{y}^{(i)}}{\partial {z}^{(i)}} = \sigma' (z^{(i)}) = \sigma (z^{(i)}) (1 - \sigma (z^{(i)})) = \hat{y}^{(i)} (1 - \hat{y}^{(i)})
+\end{align*}
+\begin{align*}
+    z^{(i)} = w^Tx^{(i)} \Rightarrow \frac{\partial {z}^{(i)}}{\partial w} = x^{(i)}
+\end{align*}
+بنابراین داریم:
+\begin{align*}
+    \frac{\partial J}{\partial w} = \sum_{i=1}^{n} \frac{\hat{y}^{(i)} - {y}^{(i)}}{\hat{y}^{(i)}(1 - \hat{y}^{(i)})} \hat{y}^{(i)} (1 - \hat{y}^{(i)}) x^{(i)} & \Rightarrow \frac{\partial J}{\partial w} = \sum_{i=1}^{n} (\hat{y}^{(i)} - {y}^{(i)}) x^{(i)} \\
+                                                                                                                                                                & \Rightarrow \nabla_w J(w) = \sum_{i=1}^{n} (\sigma(w^Tx^{(i)}) - {y}^{(i)}) x^{(i)}
+\end{align*}
+
+\item در این الگوریتم در هر گام وزن‌ها را تنها بر اساس یک نمونه از داده‌های آموزشی به روزرسانی می‌کنیم:
+\begin{enumerate}
+    \item ابتدا برای یک داده، بر اساس وزن‌های فعلی مقدار $\hat{y}^{(i)}$ را به این شکل محاسبه می‌کنیم:
+          \begin{align*}
+              \hat{y}^{(i)} = \sigma ( w^Tx^{(i)})
+          \end{align*}
+    \item وزن‌ها را در هر گام برای نمونه‌ی تصادفی $i$ام به این شکل به روزرسانی می‌کنیم ($\eta$ نرخ یادگیری است):
+          \begin{align*}
+                          & w_{new} = w_{old} - \eta \nabla_w J^{(i)}(w)                      \\
+              \Rightarrow & w_{new} = w_{old} - \eta (\sigma(w^Tx^{(i)}) - {y}^{(i)}) x^{(i)}
+          \end{align*}
+\end{enumerate}
+
+\item در صورتی که با یک مسئله‌ی دسته‌بندی سه‌کلاسه روبرو باشیم، ساختار مدل، تابع زیان و فرآیند آموزش به شرح زیر تغییر می‌کنند:
+\begin{itemize}
+    \item به جای تابع \lr{sigmoid} که یک خروجی مستقل تولید می‌کرد، لایه خروجی دارای ۳ نورون خواهد بود و از تابع \lr{Softmax} برای تولید یک توزیع احتمالی بین کلاس‌ها استفاده می‌شود:
+          \begin{align*}
+              \hat{y}_k^{(i)} = \frac{e^{w_k^Tx^{(i)}}}{\sum_{j = 1}^{3}e^{w_j^Tx^{(i)}}} \quad , \quad k \in \{1, 2, 3\}
+          \end{align*}
+
+    \item به جای یک بردار وزن واحد $w$، برای هر کلاس یک بردار وزن جداگانه ($w_k$) خواهیم داشت. در نتیجه، کل پارامترهای مدل به صورت یک ماتریس وزن $W$ نمایش داده می‌شوند که هر ستون آن مربوط به یک کلاس است.
+
+    \item برچسب واقعی داده‌ها ($y^{(i)}$) دیگر یک عدد اسکالر ($0$ یا $1$) نیست، بلکه تبدیل به یک بردار سه‌بعدی به صورت \lr{One-Hot} می‌شود؛ به طوری که اگر نمونه متعلق به کلاس $k$ باشد، مولفه‌ی $k$ام آن برابر با ۱ و سایر مولفه‌ها ۰ خواهند بود ($y^{(i)} \in \{0, 1\}^3$).
+
+    \item به جای تابع هزینه‌ی \lr{BCE}، از تابع \lr{Categorial Cross Entropy} استفاده می‌کنیم:
+          \begin{align*}
+              J(W) = - \sum_{i = 1}^n \sum_{k = 1}^{3} y_k^{(i)} \log (\hat{y}_k^{(i)})
+          \end{align*}
+\end{itemize}
+
+
+\end{ابجد}

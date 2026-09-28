@@ -1,0 +1,52 @@
+\question{}
+
+\begin{ابجد}
+\item ابتدا حداقل سطرهای مورد نیاز برای جدول \lr{CPT} هر متغیر را محاسبه می‌کنیم:
+\begin{itemize}
+    \item $a$: والدی ندارد و دو مقدار می‌تواند بگیرد. بنابراین جدول آن به \textbf{1} سطر نیاز دارد.
+    \item $c$: والد آن دو حالت دارد و خودش هم سه مقدار می‌گیرد. بنابران باید به ازای هر حالت والد، دو حالت را در جدول داشته باشیم، پس به حداقل $2 \times 2 = \textbf{4}$ سطر نیاز داریم.
+    \item $b$: دو مقدار می‌گیرد و والد آن نیز 3 حالت دارد. پس به حداقل $3 \times 1 = \textbf{3}$ سطر نیاز داریم.
+    \item $d$: چهار مقدار می‌گیرد، پس به حداقل \textbf{3} سطر نیاز داریم.
+    \item $e$: والدهای آن در مجموع $3 \times 4 = 12$ حالت و خودش دو حالت دارد. پس به $12 \times 1 = \textbf{12}$ سطر نیاز داریم.
+    \item $f$: والد آن دو حالت و خودش سه حالت دارد، پس به حداقل $2 \times 2 = \textbf{4}$ سطر نیاز داریم.
+    \item $h$: خودش و والدش هر کدام دو حالت دارند، بنابراین به $2 \times 1 = \textbf{2}$ سطر نیاز داریم.
+    \item $g$: والدهای آن در کل $2 \times 3 \times 4 = 24$ حالت و خودش هم 3 حالت دارد. بنابراین به حداقل $24 \times 2 = \textbf{48}$ سطر نیاز داریم.
+    \item $i$: والد آن و خودش هر کدام 2 حالت دارند، پس به $2 \times 1 = \textbf{2}$ سطر نیاز داریم.
+\end{itemize}
+
+\item در حالت کلی، احتمال خواسته شده به این صورت محاسبه می‌شود:
+\begin{align*}
+     & P(e, f, c, g, i) = \sum_a \sum_b \sum_d \sum_h P(a, b, c, d, e, f, g, h, i)                                                                    \\
+     & = \sum_a \sum_b \sum_d \sum_h P(a) \cdot P(c|a) \cdot P(b|c) \cdot P(d) \cdot P(e|c,d) \cdot P(f|e) \cdot P(h|e) \cdot P(g|d,f,h) \cdot P(i|h)
+\end{align*}
+
+باید متغیرهای $A$، $B$، $D$ و $H$ را حذف کنیم. فاکتورهای هر یک را بررسی می‌کنیم:
+\begin{itemize}
+    \item \textbf{$A$}:
+          \begin{align*}
+              P(a), P(c|a) \Rightarrow f_1(c) = \sum_a P(c|a) \cdot P(a)
+          \end{align*}
+
+    \item \textbf{$B$}:
+          \begin{align*}
+              \sum_b P(b|c) = 1 \Rightarrow \text{متغیر $B$ بدون اضافه کردن فاکتور جدید حذف می‌شود}
+          \end{align*}
+
+    \item \textbf{$D$}:
+          \begin{align*}
+              P(d), P(e|c,d), P(g|d,f,h) \Rightarrow f_2(c,e,f,g,h) = \sum_d P(e|c,d) \cdot P(g|d,f,h) \cdot P(d)
+          \end{align*}
+
+    \item \textbf{$H$}:
+          \begin{align*}
+              f_2(c,e,f,g,h), P(h|e), P(i|h) \Rightarrow f_3(c,e,f,g,i) = \sum_h f_2(c,e,f,g,h) \cdot P(i|h) \cdot P(h|e)
+          \end{align*}
+\end{itemize}
+
+رابطه‌ی نهایی به این صورت خواهد بود:
+\begin{align*}
+     & P(e, f, c, g, i) =                                                                                                                                              \\
+     & P(f|e) \cdot \left(\sum_a P(c|a) \cdot P(a)\right) \cdot \left(\sum_h \left(\sum_d P(e|c,d) \cdot P(g|d,f,h) \cdot P(d)\right) \cdot P(i|h) \cdot P(h|e)\right)
+\end{align*}
+
+\end{ابجد}

@@ -1,0 +1,30 @@
+\question{تحلیل یک الگوریتم ساده}
+
+\subsection{کد الگوریتم}
+در این بخش یک تابع کوتاه به زبان \lr{Python} را پیاده‌سازی می‌کنیم.
+کلمه‌ی کلیدی \code{def} یک تابع تعریف می‌کند و \code{for} حلقه‌ی تکرار است.
+\begin{listing}[H]
+    \begin{latin}
+        \begin{minted}{python}
+            def gcd(a, b):
+                while b:
+                    a, b = b, a % b
+                return a
+        \end{minted}
+    \end{latin}
+\end{listing}
+
+همان‌طور که در کد بالا می‌بینید، متغیرها \code{a} و \code{b} به‌روز می‌شوند.
+برای نوشتن عبارات انگلیسی در متن از فرمان \lr{\texttt{\textbackslash lr}} استفاده می‌کنیم، مثلاً \lr{while loop} را مستقیماً با \lr{\texttt{\textbackslash lr\{while loop\}}} نوشتیم.
+
+\subsection{تحلیل ریاضی}
+پیچیدگی زمانی این الگوریتم از مرتبه‌ی $\poly(\log(\min(a,b)))$ است، یعنی $\polylog$. به‌طور دقیق‌تر، تعداد مراحل از $\poly(\log n)$ تجاوز نمی‌کند.
+
+\subsection{فهرست مراحل به الفبا}
+مراحل اجرای کد به ترتیب الفبای فارسی:
+\begin{الفبا}
+	\item دریافت دو عدد $a$ و $b$
+	\item تکرار تا زمانی که $b \neq 0$
+	\item جابه‌جایی مقادیر
+	\item بازگرداندن $a$
+\end{الفبا}

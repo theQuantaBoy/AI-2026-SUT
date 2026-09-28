@@ -1,0 +1,80 @@
+\question{}
+
+با استفاده از روش \lr{Inference by Enumeration} مقادیر خواسته شده را محاسبه می‌کنیم:
+\begin{ابجد}
+\item در شبکه‌ی داده شده، سه‌تایی $S,W,G$ از نوع \lr{common cause} بوده و با مشاهده شدن $S$، $W$ و $G$ از هم مستقل می‌شوند. بنابراین:
+\begin{align*}
+    W \perp G | S \Rightarrow P(W | S,G) = P(W | S)
+\end{align*}
+که مقدار $P(W|S)$ را به طور مستقیم از روی \lr{CPT} های داده شده داریم:
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        $P(W|S)$ & $S$  & $W$  \\ \hline
+        $0.8$    & $+s$ & $+w$ \\ \hline
+        $0.3$    & $-s$ & $+w$ \\ \hline
+        $0.2$    & $+s$ & $-w$ \\ \hline
+        $0.7$    & $-s$ & $-w$ \\ \hline
+    \end{tabular}
+\end{table}
+
+\item می‌دانیم:
+\begin{align*}
+    P(E, G) & = \sum_b\sum_s\sum_w P(E, b, s, w, G)                                         \\
+            & = \sum_b\sum_s\sum_w P(E) \cdot P(b) \cdot P(s|E,b) \cdot P(w|s) \cdot P(G|s)
+\end{align*}
+ابتدا این احتمال را برای هر یک از 4 حالت ممکن $(E, G)$ محاسبه کرده و سپس نتایج را نرمال می‌کنیم:
+\begin{align*}
+    P(+e, +g) & = \sum_b\sum_s\sum_w P(+e) \cdot P(b) \cdot P(s|+e,b) \cdot P(w|s) \cdot P(+g|s)                        \\
+              & = (0.1 \times 0.1 \times 0.9 \times 0.8 \times 0.5) + (0.1 \times 0.1 \times 0.9 \times 0.2 \times 0.5) \\
+              & + (0.1 \times 0.1 \times 0.1 \times 0.3 \times 0.4) + (0.1 \times 0.1 \times 0.1 \times 0.7 \times 0.4) \\
+              & + (0.1 \times 0.9 \times 0.2 \times 0.8 \times 0.5) + (0.1 \times 0.9 \times 0.2 \times 0.2 \times 0.5) \\
+              & + (0.1 \times 0.9 \times 0.8 \times 0.3 \times 0.4) + (0.1 \times 0.9 \times 0.8 \times 0.7 \times 0.4) \\
+              & = 0.0427                                                                                                \\
+    P(+e, -g) & = \sum_b\sum_s\sum_w P(+e) \cdot P(b) \cdot P(s|+e,b) \cdot P(w|s) \cdot P(-g|s)                        \\
+              & = (0.1 \times 0.1 \times 0.9 \times 0.8 \times 0.5) + (0.1 \times 0.1 \times 0.9 \times 0.2 \times 0.5) \\
+              & + (0.1 \times 0.1 \times 0.1 \times 0.3 \times 0.6) + (0.1 \times 0.1 \times 0.1 \times 0.7 \times 0.6) \\
+              & + (0.1 \times 0.9 \times 0.2 \times 0.8 \times 0.5) + (0.1 \times 0.9 \times 0.2 \times 0.2 \times 0.5) \\
+              & + (0.1 \times 0.9 \times 0.8 \times 0.3 \times 0.6) + (0.1 \times 0.9 \times 0.8 \times 0.7 \times 0.6) \\
+              & = 0.0573
+\end{align*}
+
+\begin{align*}
+    P(-e, +g) & = \sum_b\sum_s\sum_w P(-e) \cdot P(b) \cdot P(s|-e,b) \cdot P(w|s) \cdot P(+g|s)                        \\
+              & = (0.9 \times 0.1 \times 0.8 \times 0.8 \times 0.5) + (0.9 \times 0.1 \times 0.8 \times 0.2 \times 0.5) \\
+              & + (0.9 \times 0.1 \times 0.2 \times 0.3 \times 0.4) + (0.9 \times 0.1 \times 0.2 \times 0.7 \times 0.4) \\
+              & + (0.9 \times 0.9 \times 0 \times 0.8 \times 0.5) + (0.9 \times 0.9 \times 0 \times 0.2 \times 0.5)     \\
+              & + (0.9 \times 0.9 \times 1 \times 0.3 \times 0.4) + (0.9 \times 0.9 \times 1 \times 0.7 \times 0.4)     \\
+              & = 0.3672                                                                                                \\
+    P(-e, -g) & = \sum_b\sum_s\sum_w P(-e) \cdot P(b) \cdot P(s|-e,b) \cdot P(w|s) \cdot P(-g|s)                        \\
+              & = (0.9 \times 0.1 \times 0.8 \times 0.8 \times 0.5) + (0.9 \times 0.1 \times 0.8 \times 0.2 \times 0.5) \\
+              & + (0.9 \times 0.1 \times 0.2 \times 0.3 \times 0.6) + (0.9 \times 0.1 \times 0.2 \times 0.7 \times 0.6) \\
+              & + (0.9 \times 0.9 \times 0 \times 0.8 \times 0.5) + (0.9 \times 0.9 \times 0 \times 0.2 \times 0.5)     \\
+              & + (0.9 \times 0.9 \times 1 \times 0.3 \times 0.6) + (0.9 \times 0.9 \times 1 \times 0.7 \times 0.6)     \\
+              & = 0.5328
+\end{align*}
+
+حال نتایج را نرمال می‌کنیم:
+\begin{align*}
+    P(+e|+g) = \frac{P(+e,+g)}{P(+g)} = \frac{0.0427}{0.0427 + 0.3672} \approx 0.1042 \\
+    P(-e|+g) = \frac{P(-e,+g)}{P(+g)} = \frac{0.3672}{0.0427 + 0.3672} \approx 0.8958 \\
+    \\
+    P(+e|-g) = \frac{P(+e,-g)}{P(-g)} = \frac{0.0573}{0.0573 + 0.5328} \approx 0.0971 \\
+    P(-e|-g) = \frac{P(-e,-g)}{P(-g)} = \frac{0.5328}{0.0573 + 0.5328} \approx 0.9029
+\end{align*}
+
+بنابراین $P(E|G)$ به این صورت می‌باشد:
+\begin{table}[H]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        $P(E|G)$ & $G$  & $E$  \\ \hline
+        $0.1042$ & $+g$ & $+e$ \\ \hline
+        $0.0971$ & $-g$ & $+e$ \\ \hline
+        $0.8958$ & $+g$ & $-e$ \\ \hline
+        $0.9029$ & $-g$ & $-e$ \\ \hline
+    \end{tabular}
+\end{table}
+
+\end{ابجد}

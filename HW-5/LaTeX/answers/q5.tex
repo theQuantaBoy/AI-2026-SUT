@@ -1,0 +1,99 @@
+\question{}
+
+\begin{ابجد}
+\item در مدل‌سازی \lr{MDP} این بازی، فضای حالت‌ها به این صورت خواهد بود:
+\begin{align*}
+    S = \{(0,C), (2,C), (3,C), (4,C), (5,C), \text{\lr{Done}}\}
+\end{align*}
+که \lr{Done} تنها حالت پایانی این \lr{MDP} است.
+
+\item بر اساس صورت سوال، فرض می‌کنیم تنها هنگامی که به حالت پایانی برویم پاداش می‌گیریم. این اتفاق در دو حالت رخ می‌دهد:
+\begin{itemize}
+    \item اکشن \lr{stop}: جمع اعداد هنوز کمتر از 6 است، بنابراین به همان مقدار پاداش می‌گیریم.
+          \begin{align*}
+              R((n, C), \text{\lr{stop}}, \text{\lr{Done}}) = n
+          \end{align*}
+
+    \item اکشن \lr{draw}: اگر در این حالت به \lr{Done} برویم، یعنی مجموع مقادیر کارت‌ها بیشتر از 5 شده، پس پاداشی نمی‌گیریم.
+          \begin{align*}
+              R((n, C), \text{\lr{draw}}, \text{\lr{Done}}) = 0
+          \end{align*}
+\end{itemize}
+پاداش انتقال‌های دیگر صفر است.
+
+\item ابتدا باید طبق رابطه‌ی $V_{k+1}(s) = \max_a \sum_{s', r'} p(s', r \mid s,a) [r + \gamma V_k(s')]$ ارزش حالت‌ها را مدام بروز می‌کنیم تا مقادیر همگرا شوند.
+
+از آنجا که در این مسئله $\gamma = 1$ و همچنین توابع انتقال حالت‌ها یک گراف جهت‌دار بدون دور (\lr{DAG}) تشکیل می‌دهند، می‌توانیم از روش استقرای عقب‌گرد (\lr{Backward Induction}) استفاده کنیم. معادلات بلمن می‌گوید:
+\begin{align*}
+    V^*(s) = \max_a \sum_{s'} T(s, a, s') \left[ R(s,a) + \gamma V^*(s') \right]
+\end{align*}
+بنابراین تنها با دانستن $V^*$ همسایه‌های یک حالت، می‌توان $V^*$ خودش را محاسبه کرد. بنابراین در این مسئله کافی است از حالت پایانی شروع کنیم و $V^*$ ها را محاسبه کنیم:
+
+\begin{align*}
+     & s = \text{\lr{Done}}   &  & V^*(\text{\lr{Done}}) = 0                                                                               \\
+     & s = (5, \text{\lr{C}}) &  & a=\text{\lr{stop}}: 1(5 + 1(0)) = 5                                                                     \\
+     &                        &  & a=\text{\lr{draw}}: \frac{1}{3}(0 + 1(0)) + \frac{1}{3}(0 + 1(0)) + \frac{1}{3}(0 + 1(0)) = 0           \\
+     &                        &  & \Rightarrow V^*((5, \text{\lr{C}})) = 5, \quad \pi^*((5, \text{\lr{C}})) = \text{\lr{stop}}             \\
+     & s = (4, \text{\lr{C}}) &  & a=\text{\lr{stop}}: 1(4 + 1(0)) = 4                                                                     \\
+     &                        &  & a=\text{\lr{draw}}: \frac{1}{3}(0 + 1(0)) + \frac{1}{3}(0 + 1(0)) + \frac{1}{3}(0 + 1(0)) = 0           \\
+     &                        &  & \Rightarrow V^*((4, \text{\lr{C}})) = 4, \quad \pi^*((4, \text{\lr{C}})) = \text{\lr{stop}}             \\
+     & s = (3, \text{\lr{C}}) &  & a=\text{\lr{stop}}: 1(3 + 1(0)) = 3                                                                     \\
+     &                        &  & a=\text{\lr{draw}}: \frac{1}{3}(0 + 1(5)) + \frac{1}{3}(0 + 1(0)) + \frac{1}{3}(0 + 1(0)) = \frac{5}{3} \\
+     &                        &  & \Rightarrow V^*((3, \text{\lr{C}})) = 3, \quad \pi^*((3, \text{\lr{C}})) = \text{\lr{stop}}
+\end{align*}
+\begin{align*}
+     & s = (2, \text{\lr{C}}) &  & a=\text{\lr{stop}}: 1(2 + 1(0)) = 2                                                                      \\
+     &                        &  & a=\text{\lr{draw}}: \frac{1}{3}(0 + 1(4)) + \frac{1}{3}(0 + 1(5)) + \frac{1}{3}(0 + 1(0)) = 3            \\
+     &                        &  & \Rightarrow V^*((2, \text{\lr{C}})) = 3, \quad \pi^*((2, \text{\lr{C}})) = \text{\lr{draw}}              \\
+     & s = (0, \text{\lr{C}}) &  & a=\text{\lr{stop}}: 1(0 + 1(0)) = 0                                                                      \\
+     &                        &  & a=\text{\lr{draw}}: \frac{1}{3}(0 + 1(3)) + \frac{1}{3}(0 + 1(3)) + \frac{1}{3}(0 + 1(4)) = \frac{10}{3} \\
+     &                        &  & \Rightarrow V^*((0, \text{\lr{C}})) = \frac{10}{3}, \quad \pi^*((0, \text{\lr{C}})) = \text{\lr{draw}}
+\end{align*}
+
+\item در \lr{Q-Learning}، با دریافت هر سمپل $(s,a,s',r)$، مقدار $Q(s, a)$ را طبق این رابطه بروز می‌کنیم:
+\begin{align*}
+    Q_{new}(s, a) = (1 - \alpha)Q(s, a) + (\alpha)[\text{\lr{sample}}]
+\end{align*}
+بنابراین هنگامی که مقادیر همگرا شده و به حد نهایی خود رسیده‌اند داریم:
+\begin{align*}
+                      & Q(s, a) = (1 - \alpha)Q(s, a) + (\alpha)[\text{\lr{sample}}] \\
+    \Rightarrow \quad & (\alpha)Q(s, a) = (\alpha)[\text{\lr{sample}}]               \\
+    \Rightarrow \quad & Q(s, a) = \text{\lr{sample}}                                 \\
+    \Rightarrow \quad & Q(s, a) = R(s,a,s') + \gamma \max_{a'} Q(s', a')
+\end{align*}
+بنابراین در این بخش هم می‌توانیم با روش \lr{backward induction} حد نهایی توابع $Q$ را محاسبه کنیم:
+\begin{align*}
+     & Q((5, \text{\lr{C}}), \text{\lr{stop}}) = 5 + 0 = 5, &  & Q((5, \text{\lr{C}}), \text{\lr{draw}}) = 0 + 0 = 0                                             \\
+     & Q((4, \text{\lr{C}}), \text{\lr{stop}}) = 4 + 0 = 4, &  & Q((4, \text{\lr{C}}), \text{\lr{draw}}) = 0 + 0 = 0                                             \\
+     & Q((3, \text{\lr{C}}), \text{\lr{stop}}) = 3 + 0 = 3, &  & Q((3, \text{\lr{C}}), \text{\lr{draw}}) = 0 + 1 (\max_{a'} \{ Q((5, \text{\lr{C}}), a') \}) = 5 \\
+     & Q((2, \text{\lr{C}}), \text{\lr{stop}}) = 2 + 0 = 2, &  & Q((2, \text{\lr{C}}), \text{\lr{draw}}) = 0 + 1 (\max_{a'} \{ Q((4, \text{\lr{C}}), a') \}) = 4 \\
+     & Q((0, \text{\lr{C}}), \text{\lr{stop}}) = 0 + 0 = 0, &  & Q((0, \text{\lr{C}}), \text{\lr{draw}}) = 0 + 1 (\max_{a'} \{ Q((2, \text{\lr{C}}), a') \}) = 4
+\end{align*}
+
+\item با مقادیر داده شده \lr{stop} کنش حریصانه است (چون $Q$ بیشتری دارد). در الگوریتم \lr{$\varepsilon$-greedy} احتمال کنش‌های غیرحریصانه برابر است با:
+\begin{align*}
+    P(\text{\lr{draw}}) = \frac{\varepsilon}{|A|} = \frac{0.4}{2} = 0.2
+\end{align*}
+و برای کنش حریصانه:
+\begin{align*}
+    P(\text{\lr{stop}}) = (1 - \varepsilon) + \frac{\varepsilon}{|A|} = (1 - 0.4) + \frac{0.4}{2} = 0.8
+\end{align*}
+حال بر اساس مقادیر به دست‌آمده در بخش ج (\lr{ground truth})، مقدار مورد انتظار $Q$ را محاسبه می‌کنیم:
+\begin{align*}
+     & \mathbb{E}[Q^*((4, \text{\lr{C}}), a)] &  & = P(\text{\lr{stop}}) \cdot Q^*((4, \text{\lr{C}}), \text{\lr{stop}}) + P(\text{\lr{draw}}) \cdot Q^*((4, \text{\lr{C}}), \text{\lr{draw}}) \\
+     &                                        &  & = 0.8(4) + 0.2(0) = 3.2
+\end{align*}
+
+\item ابتدا \lr{regret} هر گام را محاسبه می‌کنیم:
+\begin{align*}
+     & \text{\lr{regret}}_1 = V^*((0, \text{\lr{C}})) - Q^*((0, \text{\lr{C}}), \text{\lr{draw}}) = \frac{10}{3} - \frac{10}{3} = 0 \\
+     & \text{\lr{regret}}_2 = V^*((2, \text{\lr{C}})) - Q^*((2, \text{\lr{C}}), \text{\lr{stop}}) = 3 - 2 = 1                       \\
+     & \text{\lr{regret}}_3 = V^*((0, \text{\lr{C}})) - Q^*((0, \text{\lr{C}}), \text{\lr{draw}}) = \frac{10}{3} - \frac{10}{3} = 0 \\
+     & \text{\lr{regret}}_4 = V^*((4, \text{\lr{C}})) - Q^*((4, \text{\lr{C}}), \text{\lr{draw}}) = 4 - 0 = 4
+\end{align*}
+حال مقدار \lr{regret} تجمعی را محاسبه می‌کنیم:
+\begin{align*}
+    \text{\lr{regret}}_{total} = \sum_{i = 1}^4 \text{\lr{regret}}_i = 0 + 1 + 0 + 4 = 5
+\end{align*}
+
+\end{ابجد}
