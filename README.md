@@ -1,5 +1,5 @@
 # AI-2026-SUT
-Solutions for theoretical and practical assignments from the *Artificial Intelligence (AI)* course, **Spring 2026** (بهار ۱۴۰۵),
+Solutions for theoretical and practical assignments from the *Artificial Intelligence (AI)* course, **Spring 2026**,
 Computer Engineering Department, **Sharif University of Technology (SUT)**.
 
 ## Course Overview
@@ -22,24 +22,6 @@ The course covers:
 - **Introduction to Machine Learning**: linear models, neural networks
 - Applications: Natural Language Processing (NLP), Computer Vision, Robotics
 
-## Repository Structure
-Each `HW-N/` folder contains:
-- The assignment PDF and the official solution PDF (as released by the course staff)
-- My final submitted PDF (`AI_HWN_403106238.pdf`)
-- `LaTeX/` — the LaTeX source for my theoretical answers (`.tex` files, `answers/`, `assets/`). The shared
-  style file and fonts are **not** duplicated here; they come from my reusable template repo, see below.
-- `Practical/` — Jupyter notebooks and supporting code/data for the practical (عملی) exercises, with large
-  IDE/venv/cache files and cell outputs excluded (see notes below)
-
-```
-AI-2026-SUT/
-├── HW-1/   Uninformed/informed/local search
-├── HW-2/   CSP + adversarial search (Practical: Tic-Tac-Toe, Nonogram CSP)
-├── HW-3/   Bayesian networks & HMMs (Practical: HMM on DNA data, time-series forecasting)
-├── HW-4/   ML foundations (Practical: clustering, neural net / classifier on MNIST)
-├── HW-5/   MDPs & reinforcement learning (Practical: value/policy iteration, Q-learning/SARSA)
-```
-
 ## Notes
 - **LaTeX template:** All theoretical answers were typeset with my own reusable Persian/XeLaTeX assignment
   template — see [Persian-LaTeX-Assignment-Template](https://github.com/theQuantaBoy/Persian-LaTeX-Assignment-Template).
@@ -50,7 +32,7 @@ AI-2026-SUT/
   for the download link) to keep the repository lightweight.
 
 ## Information
-**Instructor:** Dr. Marioriyad (ماری‌اوریاد)
+**Instructor:** Mr. Marioriyad
 
 **Student:** Mohsen Salah
 **Student ID:** 403106238
